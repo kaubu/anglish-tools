@@ -40,6 +40,14 @@ split_definitions_examples = [
     ["᛫ a manner ᛫ a fashion ᛫ a method ᛬ to make apparent ᛬ sagacious ᛫ prudent ᛫", "N᛬V᛬AJ"]
 ]
 
-for s in split_definitions_examples:
-    a = split_definitions(s[0], s[1])
-    print(a)
+# for s in split_definitions_examples:
+#     a = split_definitions(s[0], s[1])
+#     print(a)
+
+anglish_dict = set([])
+
+with open("the_anglish_wordbook.csv", "r") as f:
+    for row in f:
+        for col in row.split(","):
+            print(col)
+        print("===")
