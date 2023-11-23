@@ -46,3 +46,7 @@ a red underline if there's an Anglish alternative. Anglish is prioritized.
           but in case it turns up none or little, there should be a "fuzzy"
           search or "more searches" section where it just searches the entire
           lot and gets anything closely related
+        - [ ] Have the website detect when a word is an adjective, noun, verb,
+          or all or some. If it's definitely one (plural nouns and conjugated
+          verbs will be the easiest to detect) POS, then that will be at the
+          top of the suggestions list

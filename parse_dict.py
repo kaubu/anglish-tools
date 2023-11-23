@@ -33,6 +33,7 @@ def split_definitions(definitions: str, pos: str):
         # print(pos_definitions)
 
         for i, p in enumerate(poses):
+            # original_definitions = pos_definitions[i]
             # N, V, AJ
             pos_definitions[i] = pos_definitions[i].split("᛫")
             pos_definitions[i] = [d.strip() for d in pos_definitions[i]]
@@ -48,13 +49,13 @@ def split_definitions(definitions: str, pos: str):
 
         return {pos: definitions}
 
-split_definitions_examples = [
-    ["᛫ delicate and tendril-like ᛫ diaphanous ᛫ gauzy ᛫ airy ᛫", "AJ"],
-    [" 	᛫ a region in Poland ᛫", "N(P)"],
-    [" 	᛫ guidance ᛫ instruction ᛫", "N"],
-    ["᛫ weak ᛫ watery ᛫ feeble wavering ᛫", "AJ"],
-    ["᛫ a manner ᛫ a fashion ᛫ a method ᛬ to make apparent ᛬ sagacious ᛫ prudent ᛫", "N᛬V᛬AJ"]
-]
+# split_definitions_examples = [
+#     ["᛫ delicate and tendril-like ᛫ diaphanous ᛫ gauzy ᛫ airy ᛫", "AJ"],
+#     [" 	᛫ a region in Poland ᛫", "N(P)"],
+#     [" 	᛫ guidance ᛫ instruction ᛫", "N"],
+#     ["᛫ weak ᛫ watery ᛫ feeble wavering ᛫", "AJ"],
+#     ["᛫ a manner ᛫ a fashion ᛫ a method ᛬ to make apparent ᛬ sagacious ᛫ prudent ᛫", "N᛬V᛬AJ"]
+# ]
 
 # for s in split_definitions_examples:
 #     a = split_definitions(s[0], s[1])
@@ -73,6 +74,7 @@ Form:
     "sequel": {
         "noun": [
             {
+                "definitions": "a sequel, the film after another film",
                 "anglish_word": "aftercoming",
                 "anglish_spelling": "aftercumming",
                 "forebear": "~",
@@ -102,6 +104,9 @@ with open("the_anglish_wordbook.csv", "r") as f:
 
         all_definitions = split_definitions(meaning, kind)
 
+        # print(all_definitions)
+        # all_definitions = {'N': ['time long past'], 'AV': ['in the past']}
+
         # print(definitions)
 
 #         print(f"===\nWord: {word}\n\
@@ -117,6 +122,28 @@ with open("the_anglish_wordbook.csv", "r") as f:
         # print(all_definitions)
 
         for kind, definitions in all_definitions.items():
+            
+            kind.replace("AC", "Acronym")
+            kind.replace("AD", "Adverb")
+            kind.replace("ADJ", "Adjective")
+            kind.replace("ADV", "Adverb")
+            kind.replace("AJ", "Adjective")
+            kind.replace("AJ(P)", "Proper Adjective")
+            kind.replace("AV", "Adverb")
+            kind.replace("C", "Conjunction")
+            kind.replace("D", "Determiner")
+            kind.replace("I", "Interjection")
+            kind.replace("N", "Noun")
+            kind.replace("N(P)", "Proper Noun")
+            kind.replace("N(PRO)", "Pronoun")
+            kind.replace("N(PN)", "Pronoun")
+            kind.replace("P", "Preposition")
+            kind.replace("PN", "Proper Noun")
+            kind.replace("PP", "Prepositional Phrase")
+            kind.replace("PHRASE", "Phrase")
+            kind.replace("PREFIX", "Prefix")
+            kind.replace("SUFFIX", "Suffix")
+            kind.replace("V", "Verb")
             
             for definition in definitions:
                 # If there is already an English word in the set
