@@ -91,7 +91,16 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             kind = kind.replace("V", "Verb")
 
             # Fix errors
+            kind = kind.replace("Prepositionhrase", "Phrase")
             kind = kind.replace("Prepositionrefix", "Prefix")
+            kind = kind.replace("Prepositionronoun", "Pronoun")
+            kind = kind.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
+            kind = kind.replace("Noun(PrepositionNoun)", "Pronoun")
+            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             
             for definition in definitions[0]:
                 # "to help" → "help"
