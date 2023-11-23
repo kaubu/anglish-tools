@@ -104,9 +104,9 @@ with open("the_anglish_wordbook.csv", "r") as f:
                     # If there is already a POS of that definition
                     if kind in english_to_anglish[definition]:
                         english_to_anglish[definition][kind].append({
-                            "definitions": definitions[1],
                             "anglish_word": word,
                             "anglish_spelling": anglish_spelling,
+                            "definitions": definitions[1],
                             "forebear": forebear,
                             "taken_from": taken_from,
                             "notes": notes,
@@ -115,9 +115,9 @@ with open("the_anglish_wordbook.csv", "r") as f:
                     else:
                         english_to_anglish[definition].update({kind: [
                             {
-                                "definitions": definitions[1],
                                 "anglish_word": word,
                                 "anglish_spelling": anglish_spelling,
+                                "definitions": definitions[1],
                                 "forebear": forebear,
                                 "taken_from": taken_from,
                                 "notes": notes,
@@ -128,9 +128,9 @@ with open("the_anglish_wordbook.csv", "r") as f:
                     english_to_anglish.update({definition: {
                         kind: [
                             {
-                                "definitions": definitions[1],
                                 "anglish_word": word,
                                 "anglish_spelling": anglish_spelling,
+                                "definitions": definitions[1],
                                 "forebear": forebear,
                                 "taken_from": taken_from,
                                 "notes": notes,
