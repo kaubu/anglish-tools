@@ -47,7 +47,7 @@ def split_definitions(definitions: str, pos: str):
 
 english_to_anglish = {}
 
-with open("the_anglish_wordbook.csv", "r") as f:
+with open("in/the_anglish_wordbook.csv", "r") as f:
     csv_reader = csv.reader(f, delimiter=",")
     line_count = 0
     
@@ -71,24 +71,27 @@ with open("the_anglish_wordbook.csv", "r") as f:
             kind = kind.replace("PHRASE", "Phrase")
             kind = kind.replace("PREFIX", "Prefix")
             kind = kind.replace("SUFFIX", "Suffix")
-            kind = kind.replace("AJ(P)", "Proper Adjective")
             kind = kind.replace("N(PRO)", "Pronoun")
+            kind = kind.replace("AJ(P)", "Proper Adjective")
             kind = kind.replace("N(PN)", "Pronoun")
             kind = kind.replace("N(P)", "Proper Noun")
+            kind = kind.replace("ADJ", "Adjective")
+            kind = kind.replace("ADV", "Adverb")
+            kind = kind.replace("AD", "Adverb")
+            kind = kind.replace("AJ", "Adjective")
+            kind = kind.replace("AV", "Adverb")
             kind = kind.replace("PP", "Prepositional Phrase")
             kind = kind.replace("PN", "Proper Noun")
             kind = kind.replace("AC", "Acronym")
-            kind = kind.replace("AD", "Adverb")
-            kind = kind.replace("ADJ", "Adjective")
-            kind = kind.replace("ADV", "Adverb")
-            kind = kind.replace("AJ", "Adjective")
-            kind = kind.replace("AV", "Adverb")
             kind = kind.replace("C", "Conjunction")
             kind = kind.replace("D", "Determiner")
             kind = kind.replace("I", "Interjection")
             kind = kind.replace("N", "Noun")
             kind = kind.replace("P", "Preposition")
             kind = kind.replace("V", "Verb")
+
+            # Fix errors
+            kind = kind.replace("Prepositionrefix", "Prefix")
             
             for definition in definitions[0]:
                 # "to help" → "help"
@@ -140,6 +143,6 @@ with open("the_anglish_wordbook.csv", "r") as f:
     
         line_count += 1
 
-with open("english_to_anglish.json", "w") as f:
+with open("out/english_to_anglish.json", "w") as f:
     # f.write(english_to_anglish)
     json.dump(english_to_anglish, f)
