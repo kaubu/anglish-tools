@@ -30,7 +30,10 @@ a red underline if there's an Anglish alternative. Anglish is prioritized.
       definitions, etc)
     - [ ] Show the alternative (proper) spelling of Anglish words
         * Have a second dictionary consisting of Anglish words with 
-    - [ ] 
+    - [ ] Eventually have an Anglish to English translator (far future)
+* Romantic (far future)
+    - [ ] The inverse of English to Germanic, show Romantic equivalents to
+      Germanic words
 * Both
     * Editor
         - [ ] Option to hide Anglish spellings
@@ -41,6 +44,8 @@ a red underline if there's an Anglish alternative. Anglish is prioritized.
         - [ ] Ability to dismiss a suggestion or suggestions (for a word)
           temporarily or permanently
             - [ ] Ability to revert dismissals
+        - [ ] Cheatsheet/Help menu to show information on demand, such as the
+          "Anglish Alphabet" Anglisc wiki page
     * Word search
         - [ ] There is, of course, the standard "exact" results of searches,
           but in case it turns up none or little, there should be a "fuzzy"
@@ -50,3 +55,5 @@ a red underline if there's an Anglish alternative. Anglish is prioritized.
           or all or some. If it's definitely one (plural nouns and conjugated
           verbs will be the easiest to detect) POS, then that will be at the
           top of the suggestions list
+* Languages
+    - [ ] Translate the app into Anglisc as well
