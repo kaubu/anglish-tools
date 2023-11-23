@@ -21,6 +21,9 @@ a red underline if there's an Anglish alternative. Anglish is prioritized.
 
 * Germanic
     - [ ] Tell the user when there is a Germanic alternative to a word
+    - [ ] Warn the user if the word is not found in the Germanic Thesaurus (can
+      be turned off editor-wide or for one word. that word can be saved as a
+      part of an ignore list)
 * Anglish
     - [ ] Tell the user when there is an Anglish alternative to a word
     - [ ] Show the different senses (adjectives, verbs, nouns, different

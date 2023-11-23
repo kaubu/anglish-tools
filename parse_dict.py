@@ -1,6 +1,22 @@
 # ᛫ delicate and tendril-like ᛫ diaphanous ᛫ gauzy ᛫ airy ᛫
 # Python 3.9 or later
 
+"""
+Word: dere
+Ang Spelling: 
+Meaning: ᛫ hurt ᛫ harm ᛫ injury ᛬ to hurt ᛫ to harm ᛫ to injure ᛫
+Kind: N᛬V
+Forebear: dēre
+Taken from: ME
+Notes: 
+
+
+Definitions: {'N': ['hurt', 'harm', 'injury'], 'V': ['to hurt', 'to harm', 'to injure']}
+"""
+
+import csv
+import json
+
 POS_DIVIDER = "᛬"
 
 def split_definitions(definitions: str, pos: str):
@@ -44,10 +60,103 @@ split_definitions_examples = [
 #     a = split_definitions(s[0], s[1])
 #     print(a)
 
-anglish_dict = set([])
+# Form:
+# "english definition lemma": {
+#   "anglish_word": X,
+#   "anglish_spelling": X,
+#   ""
+# }
+
+"""
+Form:
+{
+    "sequel": {
+        "noun": [
+            {
+                "anglish_word": "aftercoming",
+                "anglish_spelling": "aftercumming",
+                "forebear": "~",
+                "taken_from": "NE",
+                "notes": "",
+            }
+        ]
+    }
+}
+"""
+english_to_anglish = {}
 
 with open("the_anglish_wordbook.csv", "r") as f:
-    for row in f:
-        for col in row.split(","):
-            print(col)
-        print("===")
+    csv_reader = csv.reader(f, delimiter=",")
+    line_count = 0
+    
+    for row in csv_reader:
+        # row = word.split(",", 7);
+
+        word = row[0]
+        anglish_spelling = row[1]
+        meaning = row[2]   # No use after definitions
+        kind = row[3]      # No use after definitions
+        forebear = row[4]
+        taken_from = row[5]
+        notes = row[6]
+
+        all_definitions = split_definitions(meaning, kind)
+
+        # print(definitions)
+
+#         print(f"===\nWord: {word}\n\
+# Ang Spelling: {anglish_spelling}\n\
+# Meaning: {meaning}\n\
+# Kind: {kind}\n\
+# Forebear: {forebear}\n\
+# Taken from: {taken_from}\n\
+# Notes: {notes}\n\
+# \n\
+# Definitions: {definitions}")
+
+        # print(all_definitions)
+
+        for kind, definitions in all_definitions.items():
+            
+            for definition in definitions:
+                # If there is already an English word in the set
+                if definition in english_to_anglish:
+                    # If there is already a POS of that definition
+                    if kind in english_to_anglish[definition]:
+                        english_to_anglish[definition][kind].append({
+                            "anglish_word": word,
+                            "anglish_spelling": anglish_spelling,
+                            "forebear": forebear,
+                            "taken_from": taken_from,
+                            "notes": notes,
+                        })
+                    # If the word exists but doesn't have the same kind/POS
+                    else:
+                        english_to_anglish[definition].update({kind: [
+                            {
+                                "anglish_word": word,
+                                "anglish_spelling": anglish_spelling,
+                                "forebear": forebear,
+                                "taken_from": taken_from,
+                                "notes": notes,
+                            }
+                        ]})
+                # If the word doesn't exist already
+                else:
+                    english_to_anglish.update({definition: {
+                        kind: [
+                            {
+                                "anglish_word": word,
+                                "anglish_spelling": anglish_spelling,
+                                "forebear": forebear,
+                                "taken_from": taken_from,
+                                "notes": notes,
+                            }
+                        ]
+                    }})
+    
+        line_count += 1
+
+with open("english_to_anglish.json", "w") as f:
+    # f.write(english_to_anglish)
+    json.dump(english_to_anglish, f)
