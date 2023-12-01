@@ -34,6 +34,20 @@ a red underline if there's an Anglish alternative. Anglish is prioritized.
 * Romantic (far future)
     - [ ] The inverse of English to Germanic, show Romantic equivalents to
       Germanic words
+* Anti-Romantic
+    - [ ] Use Wiktionary and Wikipedia's word lists to blacklist lemmas:
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Old_French
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Middle_French
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_French
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Norman
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Anglo-Norman
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Old_Northern_French
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Canadian_French (?)
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Cajun_French (?)
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Louisiana_Creole (?)
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Latin
+        * https://en.wiktionary.org/wiki/Category:English_terms_derived_from_Greek
+        * https://en.wikipedia.org/wiki/List_of_English_words_of_French_origin_(A%E2%80%93C)
 * Both
     * Editor
         - [ ] Option to hide Anglish spellings
@@ -46,6 +60,10 @@ a red underline if there's an Anglish alternative. Anglish is prioritized.
             - [ ] Ability to revert dismissals
         - [ ] Cheatsheet/Help menu to show information on demand, such as the
           "Anglish Alphabet" Anglisc wiki page
+        - [ ] When converting a word to its lemma, keep information on whether
+          it is a plural or how it is conjugated (past tense or 3rd person
+          singular), and try to apply that conjugation to the word that
+          replaces that one
     * Word search
         - [ ] There is, of course, the standard "exact" results of searches,
           but in case it turns up none or little, there should be a "fuzzy"
