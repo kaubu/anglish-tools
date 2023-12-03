@@ -98,6 +98,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             kind = kind.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
             kind = kind.replace("Noun(PrepositionNoun)", "Pronoun")
             kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            kind = kind.replace("Prepositionroper Adjective", "Proper Noun / Adjective")
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")

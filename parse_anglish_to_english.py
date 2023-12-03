@@ -72,6 +72,7 @@ def fix_pos(pos: str) -> str:
     new_pos = new_pos.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
     new_pos = new_pos.replace("Noun(PrepositionNoun)", "Pronoun")
     new_pos = new_pos.replace("Prepositionroper Nounoun", "Proper Noun")
+    new_pos = new_pos.replace("Prepositionroper Adjective", "Proper Noun and Adjective")
 
     return new_pos
 
@@ -192,7 +193,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                                     ]
                                 }
                             })
-                            
+
             # If the word has no entries:
             else:
                 anglish_to_english.update({
