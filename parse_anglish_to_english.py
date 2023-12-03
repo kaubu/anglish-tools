@@ -117,6 +117,34 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                         "taken_from": taken_from,
                         "notes": notes,
                     })
+
+                    if anglish_spelling.strip() != "":
+                        if anglish_spelling in anglish_to_english:
+                            anglish_to_english[anglish_spelling][pos].append({
+                                "word": anglish_word,
+                                "anglish_spelling": anglish_spelling,
+                                "definitions": definitions[1],
+                                "pos": pos,
+                                "forebear": forebear,
+                                "taken_from": taken_from,
+                                "notes": notes,
+                            })
+                        else:
+                            anglish_to_english.update({
+                                anglish_spelling: {
+                                    pos: [
+                                        {
+                                            "word": anglish_word,
+                                            "anglish_spelling": anglish_spelling,
+                                            "definitions": definitions[1],
+                                            "pos": pos,
+                                            "forebear": forebear,
+                                            "taken_from": taken_from,
+                                            "notes": notes,
+                                        }
+                                    ]
+                                }
+                            })
                 # If there is no POS in that word's entry
                 else:
                     anglish_to_english[anglish_word].update({
@@ -132,6 +160,39 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                             }
                         ]
                     })
+
+                    if anglish_spelling.strip() != "":
+                        if anglish_spelling in anglish_to_english:
+                            anglish_to_english[anglish_spelling].update({
+                                pos: [
+                                    {
+                                        "word": anglish_word,
+                                        "anglish_spelling": anglish_spelling,
+                                        "definitions": definitions[1],
+                                        "pos": pos,
+                                        "forebear": forebear,
+                                        "taken_from": taken_from,
+                                        "notes": notes,
+                                    }
+                                ]
+                            })
+                        else:
+                            anglish_to_english.update({
+                                anglish_spelling: {
+                                    pos: [
+                                        {
+                                            "word": anglish_word,
+                                            "anglish_spelling": anglish_spelling,
+                                            "definitions": definitions[1],
+                                            "pos": pos,
+                                            "forebear": forebear,
+                                            "taken_from": taken_from,
+                                            "notes": notes,
+                                        }
+                                    ]
+                                }
+                            })
+                            
             # If the word has no entries:
             else:
                 anglish_to_english.update({
@@ -149,6 +210,23 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                         ]
                     }
                 })
+
+                if anglish_spelling.strip != "":
+                    anglish_to_english.update({
+                        anglish_spelling: {
+                            pos: [
+                                {
+                                    "word": anglish_word,
+                                    "anglish_spelling": anglish_spelling,
+                                    "definitions": definitions[1],
+                                    "pos": pos,
+                                    "forebear": forebear,
+                                    "taken_from": taken_from,
+                                    "notes": notes,
+                                }
+                            ]
+                        }
+                    })
 
 with open("out/anglish_to_english.json", "w") as f:
     json.dump(anglish_to_english, f)
