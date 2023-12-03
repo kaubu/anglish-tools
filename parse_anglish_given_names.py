@@ -18,9 +18,10 @@ with open("in/anglish_given_names.csv", "r") as f:
         anglish_name = row[1]   # Anglish spelling of name
         kind = row[2]           # Male/Female/Unisex
         whence = row[3]         # Living/Frozen/etc
-        foreword = row[4]       # Where the first half of the word comes
-        afterword = row[5]      # Same as above, but the second half
-        background = row[6]     # Background information
+        forebear = row[4]       # Where the name comes from
+        foreword = row[5]       # Where the first half of the word comes
+        afterword = row[6]      # Same as above, but the second half
+        background = row[7]     # Background information
 
         if DEBUG:
             print(f"""\nName: {english_name}
@@ -48,6 +49,7 @@ Background: {background}""")
                 "anglish_name": anglish_name,
                 "kind": kind,
                 "whence": whence,
+                "forebear": forebear,
                 "foreword": foreword,
                 "afterword": afterword,
                 "background": background,
@@ -59,6 +61,7 @@ Background: {background}""")
                     "anglish_name": anglish_name,
                     "kind": kind,
                     "whence": whence,
+                    "forebear": forebear,
                     "foreword": foreword,
                     "afterword": afterword,
                     "background": background,

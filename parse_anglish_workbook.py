@@ -47,6 +47,7 @@ def split_definitions(definitions: str, pos: str):
 
 english_to_anglish = {}
 
+# Makes "English to Anglish"
 with open("in/the_anglish_wordbook.csv", "r") as f:
     csv_reader = csv.reader(f, delimiter=",")
     line_count = 0
@@ -97,10 +98,10 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             kind = kind.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
             kind = kind.replace("Noun(PrepositionNoun)", "Pronoun")
             kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             
             for definition in definitions[0]:
                 # "to help" → "help"
@@ -118,6 +119,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                         english_to_anglish[definition][kind].append({
                             "anglish_word": word,
                             "anglish_spelling": anglish_spelling,
+                            # "pos": kind,
                             "definitions": definitions[1],
                             "forebear": forebear,
                             "taken_from": taken_from,
@@ -129,6 +131,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                             {
                                 "anglish_word": word,
                                 "anglish_spelling": anglish_spelling,
+                                # "pos": kind,
                                 "definitions": definitions[1],
                                 "forebear": forebear,
                                 "taken_from": taken_from,
@@ -142,6 +145,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                             {
                                 "anglish_word": word,
                                 "anglish_spelling": anglish_spelling,
+                                # "pos": kind,
                                 "definitions": definitions[1],
                                 "forebear": forebear,
                                 "taken_from": taken_from,
@@ -155,3 +159,5 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
 with open("out/english_to_anglish.json", "w") as f:
     # f.write(english_to_anglish)
     json.dump(english_to_anglish, f)
+
+######################################

@@ -157,3 +157,5 @@ with open("in/germanic_thesaurus.csv", "r") as f:
             pass
         
         line_count += 1
+
+print(f"english_to_germanic = {english_to_germanic}")
