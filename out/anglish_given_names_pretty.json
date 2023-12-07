@@ -2545,7 +2545,7 @@
         "forebear": "Br\u016bn\u01bfeard",
         "foreword": "br\u016bn",
         "afterword": "\u01bfeard",
-        "background": ""
+        "background": "Kin with the German name \u2018Brunwart\u2019."
     }, {
         "english_name": "Bronwin",
         "anglish_name": "Brun\u01bfin",
@@ -7821,6 +7821,69 @@
         "afterword": "\u01bfine",
         "background": "Said with the rearded \u27e8th\u27e9 loud."
     }, {
+        "english_name": "Hackman",
+        "anglish_name": "Hackman",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "Hacmann",
+        "foreword": "hac",
+        "afterword": "mann",
+        "background": ""
+    }, {
+        "english_name": "Hackolph",
+        "anglish_name": "Hackulf",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "Hach\u016bn",
+        "foreword": "hac",
+        "afterword": "\u01bfulf",
+        "background": "Can also be spelled: Hackulph (Anglish Spelling: Hackulf)."
+    }, {
+        "english_name": "Hackoun",
+        "anglish_name": "Hackun",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "Hach\u016bn",
+        "foreword": "hac",
+        "afterword": "h\u016bn",
+        "background": ""
+    }, {
+        "english_name": "Haddolph",
+        "anglish_name": "Haddulf",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u0101d\u01bfeald",
+        "foreword": "h\u0101d",
+        "afterword": "\u01bfeald",
+        "background": "Can also be spelled: Haddulph(Anglish Spelling: Hackulf)."
+    }, {
+        "english_name": "Hadwald",
+        "anglish_name": "Had\u01bfald",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u0101d\u01bfeald",
+        "foreword": "h\u0101d",
+        "afterword": "\u01bfeald",
+        "background": ""
+    }, {
+        "english_name": "Hadway",
+        "anglish_name": "Had\u01bfay",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u0101d\u01bf\u012b\u0121",
+        "foreword": "h\u0101d",
+        "afterword": "\u01bf\u012b\u0121",
+        "background": ""
+    }, {
+        "english_name": "Hadwin",
+        "anglish_name": "Had\u01bfin",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u0101d\u01bfine",
+        "foreword": "h\u0101d",
+        "afterword": "\u01bfine",
+        "background": ""
+    }, {
         "english_name": "Haffrith",
         "anglish_name": "Haffri\u00fe",
         "kind": "Male",
@@ -9252,6 +9315,15 @@
         "afterword": "fri\u00fe",
         "background": "Kin with the Norman name \u2018Humphrey\u2019."
     }, {
+        "english_name": "Hungar",
+        "anglish_name": "Hungar",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u016bng\u0101r",
+        "foreword": "h\u016bn",
+        "afterword": "g\u0101r",
+        "background": "Can also be spelled: Hunger."
+    }, {
         "english_name": "Hunlof",
         "anglish_name": "Hunloff",
         "kind": "Male",
@@ -9270,6 +9342,24 @@
         "afterword": "g\u0233\u00fe",
         "background": ""
     }, {
+        "english_name": "Hunnild",
+        "anglish_name": "Hunnild",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u016bnhild",
+        "foreword": "h\u016bn",
+        "afterword": "hild",
+        "background": ""
+    }, {
+        "english_name": "Hunnils",
+        "anglish_name": "Hunnils",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u016bn\u0121\u012bls",
+        "foreword": "h\u016bn",
+        "afterword": "\u0121\u012bls",
+        "background": ""
+    }, {
         "english_name": "Hunnive",
         "anglish_name": "Hunnife",
         "kind": "Female",
@@ -9279,6 +9369,15 @@
         "afterword": "\u0121ifu",
         "background": ""
     }, {
+        "english_name": "Hunman",
+        "anglish_name": "Hunman",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u016bnmann",
+        "foreword": "h\u016bn",
+        "afterword": "mann",
+        "background": "Can also be spelled: Humman; not tied to the word \u2018human\u2019."
+    }, {
         "english_name": "Hunred",
         "anglish_name": "Hunred",
         "kind": "Male",
@@ -9286,6 +9385,15 @@
         "forebear": "H\u016bnr\u01e3d",
         "foreword": "h\u016bn",
         "afterword": "r\u01e3d",
+        "background": ""
+    }, {
+        "english_name": "Hunrich",
+        "anglish_name": "Hunric",
+        "kind": "Male",
+        "whence": "Quickened",
+        "forebear": "H\u016bnr\u012b\u010b",
+        "foreword": "h\u016bn",
+        "afterword": "r\u012b\u010b",
         "background": ""
     }, {
         "english_name": "Hunsey",
@@ -9970,6 +10078,15 @@
         "forebear": "\u0232\u00febeard",
         "foreword": "\u0233\u00fe",
         "afterword": "beard",
+        "background": ""
+    }, {
+        "english_name": "Ithelm",
+        "anglish_name": "I\u00feelm",
+        "kind": "Unisex",
+        "whence": "Quickened",
+        "forebear": "\u0120\u0233\u00fehelm",
+        "foreword": "\u0121\u0233\u00fe",
+        "afterword": "helm",
         "background": ""
     }, {
         "english_name": "Ithswith",
@@ -11887,7 +12004,7 @@
         "forebear": "Mearc\u01bfeard",
         "foreword": "mearc",
         "afterword": "\u01bfeard",
-        "background": ""
+        "background": "Kin with the German name \u2018Markwart\u2019."
     }, {
         "english_name": "Marwel",
         "anglish_name": "Mar\u01bfel",
@@ -15451,7 +15568,7 @@
         "forebear": "\u00deanc\u01bfeard",
         "foreword": "\u00feanc",
         "afterword": "\u01bfeard",
-        "background": ""
+        "background": "Kin with the German name \u2018Dankwart\u2019."
     }, {
         "english_name": "Thankyard",
         "anglish_name": "\u00deankgeard",
@@ -20342,7 +20459,7 @@
         "background": "Also found in English as a shortening of the name \u2018Abigail\u2019."
     }, {
         "english_name": "Garfield",
-        "anglish_name": "Garfeeld",
+        "anglish_name": "Garfield",
         "kind": "Male",
         "whence": "Lastname",
         "forebear": "-",
@@ -20540,13 +20657,13 @@
         "background": "Also found as: Greenard."
     }, {
         "english_name": "Grenfield",
-        "anglish_name": "Grenfeeld",
+        "anglish_name": "Grenfield",
         "kind": "Male",
         "whence": "Lastname",
         "forebear": "-",
         "foreword": "gr\u0113ne",
         "afterword": "feld",
-        "background": "Also found as: Greenfield (Anglish Spelling: Greenfeeld). Not a given name in OE. From the OE stow-name \u2018Gr\u0113nefeld\u2019."
+        "background": "Also found as: Greenfield. Not a given name in OE. From the OE stow-name \u2018Gr\u0113nefeld\u2019."
     }, {
         "english_name": "Grenolph",
         "anglish_name": "Grenulf",
@@ -20610,6 +20727,42 @@
         "foreword": "-",
         "afterword": "-",
         "background": "Not a given name in OE. From the stow-name for someone who lived in or by a grove. Borne by the 22nd and 24th American leader, Grover Cleveland (1837\u20131908)."
+    }, {
+        "english_name": "Hack",
+        "anglish_name": "Hack",
+        "kind": "Unisex",
+        "whence": "Lastname",
+        "forebear": "Hacca \u2642, Hacco \u2640",
+        "foreword": "hac",
+        "afterword": "-",
+        "background": ""
+    }, {
+        "english_name": "Hacker",
+        "anglish_name": "Hacker",
+        "kind": "Unisex",
+        "whence": "Lastname",
+        "forebear": "Hacca \u2642, Hacco \u2640",
+        "foreword": "hac",
+        "afterword": "-",
+        "background": ""
+    }, {
+        "english_name": "Hadd",
+        "anglish_name": "Had",
+        "kind": "Unisex",
+        "whence": "Lastname",
+        "forebear": "H\u0101dda \u2642, H\u0101ddo \u2640",
+        "foreword": "h\u0101d",
+        "afterword": "-",
+        "background": ""
+    }, {
+        "english_name": "Hadder",
+        "anglish_name": "Hadder",
+        "kind": "Unisex",
+        "whence": "Lastname",
+        "forebear": "H\u0101dda \u2642, H\u0101ddo \u2640",
+        "foreword": "h\u0101d",
+        "afterword": "-",
+        "background": ""
     }, {
         "english_name": "Hadley",
         "anglish_name": "Hadley",
@@ -22061,7 +22214,7 @@
         "background": "Sweltered as a given name, but lives on as a lastname."
     }, {
         "english_name": "Renfield",
-        "anglish_name": "Renfeeld",
+        "anglish_name": "Renfield",
         "kind": "Male",
         "whence": "Lastname",
         "forebear": "-",
@@ -22808,7 +22961,7 @@
         "background": "Not a given name in OE. From the OE stow-name \u2018Stircland\u2019. From a lastname that has a metathesis of \u2018stirk-\u2019 (a bullock) to \u2018strick-\u2019."
     }, {
         "english_name": "Suffield",
-        "anglish_name": "Suffeeld",
+        "anglish_name": "Suffield",
         "kind": "Male",
         "whence": "Lastname",
         "forebear": "-",
@@ -23483,7 +23636,7 @@
         "background": "Either from the everyday English word, or from the lastname. Borne by the main player in the 2000s TV show \u2018Breaking Bad\u2019. Kin with the German lastname \u2018Wei\u00df\u2019, sometimes Englished as \u2018Weiss\u2019."
     }, {
         "english_name": "Whitfield",
-        "anglish_name": "H\u01bfitfeeld",
+        "anglish_name": "H\u01bfitfield",
         "kind": "Male",
         "whence": "Lastname",
         "forebear": "-",
@@ -23609,7 +23762,7 @@
         "background": "Not a given name in OE. From the OE stow-name \u2018\u01f7indles\u014dra\u2019. Borne by the British Kingkin since 1917."
     }, {
         "english_name": "Winfield",
-        "anglish_name": "\u01f7infeeld",
+        "anglish_name": "\u01f7infield",
         "kind": "Male",
         "whence": "Lastname",
         "forebear": "-",
@@ -25623,7 +25776,7 @@
         "forebear": "\u00de\u0113od\u01bfeard",
         "foreword": "\u00fe\u0113od",
         "afterword": "\u01bfeard",
-        "background": "Can also be spelled: Tedward (Anglish Spelling: Ted\u01bfard; from loss of initial-\u27e8th\u27e9)."
+        "background": "Can also be spelled: Tedward (Anglish Spelling: Ted\u01bfard; from loss of initial-\u27e8th\u27e9). Kin with the German name \u2018Dietwart\u2019."
     }, {
         "english_name": "Thorn",
         "anglish_name": "\u00deorn",
@@ -26375,7 +26528,7 @@
         "background": "Not found in OE. Would be kin with \u2018Merovech\u2019, king of the Salian Franks in the 400s and starter of the Merovingian House."
     }, {
         "english_name": "Rosefield",
-        "anglish_name": "Rosefeeld",
+        "anglish_name": "Rosefield",
         "kind": "Male",
         "whence": "Unfounded",
         "forebear": "*R\u014dsefeld",

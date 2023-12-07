@@ -10,10 +10,16 @@ DEBUG = False
 
 anglish_given_names = {}
 
-with open("in/anglish_given_names.csv", "r") as f:
+with open("in/anglish_given_names_2.csv", "r") as f:
     csv_reader = csv.reader(f, delimiter=",")
+    line_count = 0
 
     for row in csv_reader:
+        # Ignore the head rows
+        if line_count == 0:
+            line_count += 1
+            continue
+
         english_name = row[0]   # English spelling of name
         anglish_name = row[1]   # Anglish spelling of name
         kind = row[2]           # Male/Female/Unisex
@@ -67,6 +73,8 @@ Background: {background}""")
                     "background": background,
                 }
             ]
+
+        line_count += 1
 
 # def set_default(obj):
 #     if isinstance(obj, set):
