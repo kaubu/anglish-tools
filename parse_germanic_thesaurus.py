@@ -158,6 +158,7 @@ with open("in/germanic_thesaurus.csv", "r") as f:
         germanic = row[3]
         germanic_like = row[4]
         details = row[5]
+        details = details.replace("\n", "<br/>")
 
         lemmas = lemmas.split(",")
         lemmas = [l.strip() for l in lemmas]
@@ -173,21 +174,27 @@ with open("in/germanic_thesaurus.csv", "r") as f:
             if lemma in english_to_germanic:
                 # If the parts of speech exists
                 if pos in english_to_germanic[lemma]:
-                    print(f"Something has gone wrong, POS already at {lemma}")
-                else:
-                    english_to_germanic[lemma][pos] = {
+                    # print(f"Something has gone wrong, POS already at {lemma}")
+
+                    english_to_germanic[lemma][pos].append({
                         "alternatives": germanic,
                         "germanic_like_alternatives": germanic_like,
                         "details": details,
-                    }
+                    })
+                else:
+                    english_to_germanic[lemma][pos] = [{
+                        "alternatives": germanic,
+                        "germanic_like_alternatives": germanic_like,
+                        "details": details,
+                    }]
             # If the word doesn't exist
             else:
                 english_to_germanic[lemma] = {
-                    pos: {
+                    pos: [{
                         "alternatives": germanic,
                         "germanic_like_alternatives": germanic_like,
                         "details": details,
-                    }
+                    }]
                 }
         
         line_count += 1
