@@ -6,6 +6,66 @@ import json
 
 POS_DIVIDER = "᛬"
 
+def fix_definition(d: str) -> str:
+    d = d.replace("[ᛏ]", "(transitive)")
+    d = d.replace("ᛏ", "(transitive)")
+    d = d.replace("[ᚾ]", "(intransitive: neuter verb)")
+    d = d.replace("ᚾ", "(intransitive: neuter verb)")
+    d = d.replace("[ᚹ]", "(widened: an expanded meaning given to a word for the sake of Anglisc)")
+    d = d.replace("ᚹ", "(widened: an expanded meaning given to a word for the sake of Anglisc)")
+    return d
+
+def fix_taken_from(tf: str) -> str:
+    if tf.strip() == "N": return "Norse"
+    elif tf.strip() == "Þ": return "Proto-Germanic"
+    elif tf.strip() == "C": return "Celtic"
+    elif tf.strip() == "I": return "Italic"
+    elif tf.strip() == "H": return "Hellenic"
+    elif tf.strip() == "O": return "Other"
+
+    tf = tf.replace("ANE", "Archaic New English")
+    tf = tf.replace("NE", "New English")
+    tf = tf.replace("ME", "Middle English")
+    tf = tf.replace("OE", "Old English")
+    tf = tf.replace("WF", "West Frisian")
+    tf = tf.replace("LG", "Low German")
+    tf = tf.replace("HG", "High German")
+    tf = tf.replace("NL", "Dutch")
+    tf = tf.replace("Þ", "Proto-Germanic")
+    tf = tf.replace("C", "Celtic")
+    tf = tf.replace("I", "Italic")
+    tf = tf.replace("N", "Norse")
+    tf = tf.replace("H", "Hellenic")
+    tf = tf.replace("O", "Other")
+
+    tf = tf.replace("Archaic Norseew English", "Archaic New English")
+    tf = tf.replace("Norseew English", "New English")
+    tf = tf.replace("Otherld English", "Old English")
+    tf = tf.replace("Hellenicigh German", "High German")
+    tf = tf.replace("Norseorse", "Norse")
+    # ‹ = immediately from
+    # ‹‹ = ultimately from
+    tf = tf.replace("‹‹", ", ultimately from ")
+    tf = tf.replace("‹", ", from ")
+    tf = tf.replace("&", " and ")
+    tf = tf.replace("+", " plus ")
+
+    return tf
+
+def fix_notes(n: str) -> str:
+    n = n.replace("PST", "Past Tense")
+    n = n.replace("PTCP", "Past Participle")
+    n = n.replace("PL", "Plural")
+
+    n = n.replace("[OXF]", "Past Participle")
+    n = n.replace("[OED]", "Oxford English Dictionary")
+    n = n.replace("[MW]", "Merriam-Webster (though maybe only the 1913 edition)")
+    n = n.replace("[CED]", "Collins English Dictionary")
+    n = n.replace("[MED]", "Middle English Compendium")
+    n = n.replace("[EDD]", "Innsbruck EDD Online 3.0 (based on Joseph Wright’s English Dialect Dictionary, 1898-1905)")
+
+    return n
+
 def split_definitions(definitions: str, pos: str):
     definitions = definitions.strip()
     definitions = definitions.removeprefix("᛫ ")
@@ -103,6 +163,10 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+
+            final_definition = fix_definition(definitions[1])
+            taken_from = fix_taken_from(taken_from)
+            notes = fix_notes(notes)
             
             for definition in definitions[0]:
                 # "to help" → "help"
@@ -121,7 +185,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                             "anglish_word": word,
                             "anglish_spelling": anglish_spelling,
                             # "pos": kind,
-                            "definitions": definitions[1],
+                            "definitions": final_definition,
                             "forebear": forebear,
                             "taken_from": taken_from,
                             "notes": notes,
@@ -133,7 +197,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                                 "anglish_word": word,
                                 "anglish_spelling": anglish_spelling,
                                 # "pos": kind,
-                                "definitions": definitions[1],
+                                "definitions": final_definition,
                                 "forebear": forebear,
                                 "taken_from": taken_from,
                                 "notes": notes,
@@ -147,7 +211,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
                                 "anglish_word": word,
                                 "anglish_spelling": anglish_spelling,
                                 # "pos": kind,
-                                "definitions": definitions[1],
+                                "definitions": final_definition,
                                 "forebear": forebear,
                                 "taken_from": taken_from,
                                 "notes": notes,
