@@ -13,18 +13,18 @@ import csv
 import json
 import re
 
-test_string = "[D1|on all sides or in every direction] about, all over, everywhere, abroad, afloat, hereabout, hereabouts [D2|toward the opposite direction] about, back, backward, backwards, behind, down, downward, athwart, everywhere, here and there, to and fro"
-multiple_definitions_re = r"\[D\d\|(?P<definition>.*?)\]\s(?P<alternatives>.*?)(?=[$\[])"
+# test_string = "[D1|on all sides or in every direction] about, all over, everywhere, abroad, afloat, hereabout, hereabouts [D2|toward the opposite direction] about, back, backward, backwards, behind, down, downward, athwart, everywhere, here and there, to and fro"
+# multiple_definitions_re = r"\[D\d\|(?P<definition>.*?)\]\s(?P<alternatives>.*?)(?=[$\[])"
 
-matches = re.finditer(multiple_definitions_re, test_string)
+# matches = re.finditer(multiple_definitions_re, test_string)
 
-for match in matches:
-    for group in range(1, len(match.groups())):
-        print(f"Definition: {match.group('definition')}")
-        print(f"Alternatives: {match.group('alternatives')}")
-        print()
+# for match in matches:
+#     for group in range(1, len(match.groups())):
+#         print(f"Definition: {match.group('definition')}")
+#         print(f"Alternatives: {match.group('alternatives')}")
+#         print()
 
-input("Close now")
+# input("Close now")
 
 """
 english_to_germanic = {
@@ -100,7 +100,46 @@ english_to_germanic = {
         }
     },
 }
+
+===
+
+english_to_germanic[lemma][pos] = {
+    "alternatives": {
+        DEFINITION1: [ALTERNATIVE1, ALTERNATIVE2],
+    },
+    "germanic_like_alternatives": germanic_like,
+    "details": {
+        "notes": [NOTES],
+        "examples": [
+            {
+                "example": EXAMPLE_GX,
+                "related_lemmas": RELATED_LEMMAS_OPTIONAL,
+            }
+        ],
+        "germanic_like_examples": [],
+        "links": [LINKS_LX],
+        "related_lemmas": [],
+    }
+}
 """
+
+def process_pos(pos: str) -> str:
+    pos = pos.strip()
+    
+    if pos == "n": return "Noun"
+
+    pos = pos.replace("adj", "Adjective")
+    pos = pos.replace("adv", "Adverb")
+    pos = pos.replace("conj", "Conjunction")
+    pos = pos.replace("interj", "Interjection")
+    pos = pos.replace("phr", "Phrase")
+    pos = pos.replace("pref", "Prefix")
+    pos = pos.replace("prep phr", "Prepositional Phrase")
+    pos = pos.replace("prep", "Preposition")
+    pos = pos.replace("suff", "Suffix")
+    pos = pos.replace("vb", "Verb")
+
+    return pos
 
 english_to_germanic = {}
 
@@ -115,7 +154,7 @@ with open("in/germanic_thesaurus.csv", "r") as f:
 
         rank = row[0]
         lemmas = row[1]
-        pos = row[2]
+        pos = process_pos(row[2])
         germanic = row[3]
         germanic_like = row[4]
         details = row[5]
@@ -137,25 +176,23 @@ with open("in/germanic_thesaurus.csv", "r") as f:
                     print(f"Something has gone wrong, POS already at {lemma}")
                 else:
                     english_to_germanic[lemma][pos] = {
-                        "alternatives": {
-                            DEFINITION1: [ALTERNATIVE1, ALTERNATIVE2],
-                        },
+                        "alternatives": germanic,
                         "germanic_like_alternatives": germanic_like,
-                        "details": {
-                            "notes": [NOTES],
-                            "examples": [
-                                {
-                                    "example": EXAMPLE_GX,
-                                    "related_lemmas": RELATED_LEMMAS_OPTIONAL,
-                                }
-                            ],
-                            "germanic_like_examples": [],
-                            "links": [LINKS_LX],
-                            "related_lemmas": [],
-                        }
+                        "details": details,
                     }
-            pass
+            # If the word doesn't exist
+            else:
+                english_to_germanic[lemma] = {
+                    pos: {
+                        "alternatives": germanic,
+                        "germanic_like_alternatives": germanic_like,
+                        "details": details,
+                    }
+                }
         
         line_count += 1
 
-print(f"english_to_germanic = {english_to_germanic}")
+# print(f"english_to_germanic = {english_to_germanic}")
+
+with open("out/english_to_germanic.json", "w") as f:
+    json.dump(english_to_germanic, f)
