@@ -159,6 +159,10 @@ with open("in/germanic_thesaurus.csv", "r") as f:
         germanic_like = row[4]
         details = row[5]
         details = details.replace("\n", "<br/>")
+        details = details.replace("[G", "[Example ")
+        details = details.replace("[F", "[Germanic-like example ")
+        details = details.replace("[L", "[Link ")
+        details = details.replace("[S", "[Related lemmas")
 
         lemmas = lemmas.split(",")
         lemmas = [l.strip() for l in lemmas]
