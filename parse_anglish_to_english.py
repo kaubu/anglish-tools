@@ -135,8 +135,8 @@ def fix_taken_from(tf: str) -> str:
     # ‹‹ = ultimately from
     tf = tf.replace("‹‹", ", ultimately from ")
     tf = tf.replace("‹", ", from ")
-    tf = tf.replace("&", " and ")
-    tf = tf.replace("+", " plus ")
+    tf = tf.replace("&", " & ")
+    tf = tf.replace("+", " + ")
 
     return tf
 

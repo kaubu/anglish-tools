@@ -51,19 +51,21 @@ def process_germanic(g: str) -> str:
     return germanic
 
 def process_details(d: str) -> str:
-    details = d.replace("\n", "<br/>")
-    details = details.replace("[N", "[Note ")
+    details = d.replace("[N", "\n[Note ")
     details = details.replace("|N", "|Note ")
-    details = details.replace("[G", "[Example ")
+    details = details.replace("[G", "\n[Example ")
+    details = details.replace("[O", "\n[Example ")  # Mistake
     details = details.replace("|G", "|Example ")
-    details = details.replace("[F", "[Germanic-like example ")
+    details = details.replace("[F", "\n[Germanic-like example ")
     details = details.replace("|F", "|Germanic-like example ")
-    details = details.replace("[L", "[Link ")
+    details = details.replace("[L", "\n[Link ")
     details = details.replace("|L", "|Link ")
-    details = details.replace("[S", "[Related lemmas")
+    details = details.replace("[S", "\n[Related lemmas")
     details = details.replace("|S", "|Related lemmas")
-    details = details.replace("[D", "[Definition ")
+    details = details.replace("[D", "\n[Definition ")
     details = details.replace("|D", "|Definition ")
+    details = details.strip()
+    details = details.replace("\n", "<br/>")
 
     return details
 
@@ -131,11 +133,19 @@ with open("in/germanic_thesaurus_2.csv", "r") as f:
                     if "." in germanic_thesaurus[line_count + 1 + sl_count][0]:
                         # print(f"find: . in {germanic_thesaurus[line_count + 1 + sl_count]}")
                         sl = germanic_thesaurus[line_count + 1 + sl_count]
+                        sl[1] = sl[1].strip()
+                        sl[1] = sl[1].removeprefix("`")
                         sl[2] = process_pos(sl[2])
                         sl[3] = process_germanic(sl[3])
                         sl[5] = process_details(sl[5])
 
-                        sub_lemmas.append(sl)
+                        sub_lemmas.append({
+                            "lemma": sl[1],
+                            "pos": sl[2],
+                            "alternatives": sl[3],
+                            "germanic_like_alternatives": sl[4],
+                            "details": sl[5],
+                        })
                     else:
                         break
 
