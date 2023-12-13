@@ -135,6 +135,7 @@ with open("in/germanic_thesaurus_2.csv", "r") as f:
                         sl = germanic_thesaurus[line_count + 1 + sl_count]
                         sl[1] = sl[1].strip()
                         sl[1] = sl[1].removeprefix("`")
+                        sl[1] = sl[1].replace("`", "")
                         sl[2] = process_pos(sl[2])
                         sl[3] = process_germanic(sl[3])
                         sl[5] = process_details(sl[5])
