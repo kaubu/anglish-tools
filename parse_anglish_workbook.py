@@ -166,6 +166,10 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
 
+
+            # Misc
+            kind = kind.replace("&", " & ")
+
             final_definition = fix_definition(definitions[1])
             taken_from = fix_taken_from(taken_from)
             notes = fix_notes(notes)

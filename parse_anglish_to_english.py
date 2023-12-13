@@ -75,6 +75,9 @@ def fix_pos(pos: str) -> str:
     new_pos = new_pos.replace("Prepositionroper Nounoun", "Proper Noun")
     new_pos = new_pos.replace("Prepositionroper Adjective", "Proper Noun and Adjective")
 
+    # Misc
+    new_pos = new_pos.replace("&", " & ")
+
     return new_pos
 
 def fix_definition(d: str) -> str:
