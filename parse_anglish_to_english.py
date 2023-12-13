@@ -67,6 +67,7 @@ def fix_pos(pos: str) -> str:
 
     # Fix errors
     new_pos = new_pos.replace("Prepositionhrase", "Phrase")
+    new_pos = new_pos.replace("Prepositionrepositional Phrase", "Prepositional Phrase")
     new_pos = new_pos.replace("Prepositionrefix", "Prefix")
     new_pos = new_pos.replace("Prepositionronoun", "Pronoun")
     new_pos = new_pos.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
@@ -154,6 +155,7 @@ def fix_notes(n: str) -> str:
     n = n.replace("[MW]", "Merriam-Webster (though maybe only the 1913 edition)")
     n = n.replace("[CED]", "Collins English Dictionary")
     n = n.replace("[MED]", "Middle English Compendium")
+    n = n.replace("[LEX]", "Lexico (defunct)")
     n = n.replace("[EDD]", "Innsbruck EDD Online 3.0 (based on Joseph Wright’s English Dialect Dictionary, 1898-1905)")
 
     return n

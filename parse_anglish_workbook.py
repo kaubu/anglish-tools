@@ -62,6 +62,7 @@ def fix_notes(n: str) -> str:
     n = n.replace("[MW]", "Merriam-Webster (though maybe only the 1913 edition)")
     n = n.replace("[CED]", "Collins English Dictionary")
     n = n.replace("[MED]", "Middle English Compendium")
+    n = n.replace("[LEX]", "Lexico (defunct)")
     n = n.replace("[EDD]", "Innsbruck EDD Online 3.0 (based on Joseph Wright’s English Dialect Dictionary, 1898-1905)")
 
     return n
@@ -156,6 +157,7 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             kind = kind.replace("Prepositionrefix", "Prefix")
             kind = kind.replace("Prepositionronoun", "Pronoun")
             kind = kind.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
+            kind = kind.replace("Prepositionrepositional Phrase", "Prepositional Phrase")
             kind = kind.replace("Noun(PrepositionNoun)", "Pronoun")
             kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             kind = kind.replace("Prepositionroper Adjective", "Proper Noun / Adjective")
