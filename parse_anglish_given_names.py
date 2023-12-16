@@ -8,9 +8,7 @@ FEMALE = "♀"
 UNISEX = "⚥"
 DEBUG = False
 
-anglish_given_names = {}
-
-with open("in/anglish_given_names_2.csv", "r") as f:
+def process_standard(f, dict_to_save: dict):
     csv_reader = csv.reader(f, delimiter=",")
     line_count = 0
 
@@ -49,8 +47,8 @@ Background: {background}""")
             case n:
                 print(f"UNKNOWN KIND: '{n}' at {english_name}")
 
-        if whence in anglish_given_names:
-            anglish_given_names[whence].append({
+        if whence in dict_to_save:
+            dict_to_save[whence].append({
                 "english_name": english_name,
                 "anglish_name": anglish_name,
                 "kind": kind,
@@ -61,7 +59,7 @@ Background: {background}""")
                 "background": background,
             })
         else:
-            anglish_given_names[whence] = [
+            dict_to_save[whence] = [
                 {
                     "english_name": english_name,
                     "anglish_name": anglish_name,
@@ -76,11 +74,23 @@ Background: {background}""")
 
         line_count += 1
 
-# def set_default(obj):
-#     if isinstance(obj, set):
-#         return list(obj)
-#     raise TypeError
+### ANGLISH GIVEN NAMES
+
+anglish_given_names = {}
+
+with open("in/names/anglish_given_names_3.csv", "r") as f:
+    process_standard(f, anglish_given_names)
 
 with open("out/anglish_given_names.json", "w") as f:
     # json.dump(anglish_given_names, f, default=set_default)
     json.dump(anglish_given_names, f)
+
+### NORSE GIVEN NAMES
+
+anglo_norse_given_names = {}
+
+with open("in/names/anglo-norse_given_names.csv", "r") as f:
+    process_standard(f, anglo_norse_given_names)
+
+with open("out/anglo-norse_given_names.json", "w") as f:
+    json.dump(anglo_norse_given_names, f)

@@ -1,6 +1,11 @@
 # Anglish Tools
 Tools to help with Anglish writing.
 
+## TODO
+
+- [ ] Words that have multiple parts of speech (such as Noun:Verb) aren't
+  detected in search.
+
 ## Notes
 
 The Anglish Wordbook "meanings" often have "a" or "an" or "the" in front of
