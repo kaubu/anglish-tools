@@ -109,7 +109,21 @@ def split_definitions(definitions: str, pos: str):
 
         return {pos: (definitions, original_definitions)}
 
-english_to_anglish = {}
+"""
+english_to_anglish = [
+    {
+        word: word,
+        anglish_spelling: anglish_spelling,
+        meaning: meaning,
+        kind: kind,
+        forebear: forebear,
+        taken_from: taken_from,
+        notes: notes,
+    },
+]
+"""
+
+anglish_wordlist = []
 
 # Makes "English to Anglish"
 with open("in/the_anglish_wordbook.csv", "r") as f:
@@ -164,11 +178,6 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             kind = kind.replace("Noun(PrepositionNoun)", "Pronoun")
             kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
             kind = kind.replace("Prepositionroper Adjective", "Proper Noun / Adjective")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-
 
             # Misc
             kind = kind.replace("&", " & ")
@@ -177,61 +186,31 @@ with open("in/the_anglish_wordbook.csv", "r") as f:
             taken_from = fix_taken_from(taken_from)
             notes = fix_notes(notes)
             
-            for definition in definitions[0]:
-                # "to help" → "help"
-                # "a soldier" → "soldier"
-                if kind == "Verb":
-                    definition = definition.removeprefix("to ")
-                elif kind == "Noun":
-                    definition = definition.removeprefix("a ")
-                    definition = definition.removeprefix("an ")
+#             for definition in definitions[0]:
+#                 print(f"""\n\nword = {word}
+# anglish_spelling = {anglish_spelling}
+# meaning = {final_definition}
+# kind = {kind}
+# forebear = {forebear}
+# taken_from = {taken_from}
+# notes = {notes}""")
 
-                # If there is already an English word in the set
-                if definition in english_to_anglish:
-                    # If there is already a POS of that definition
-                    if kind in english_to_anglish[definition]:
-                        english_to_anglish[definition][kind].append({
-                            "anglish_word": word,
-                            "anglish_spelling": anglish_spelling,
-                            # "pos": kind,
-                            "definitions": final_definition,
-                            "forebear": forebear,
-                            "taken_from": taken_from,
-                            "notes": notes,
-                        })
-                    # If the word exists but doesn't have the same kind/POS
-                    else:
-                        english_to_anglish[definition].update({kind: [
-                            {
-                                "anglish_word": word,
-                                "anglish_spelling": anglish_spelling,
-                                # "pos": kind,
-                                "definitions": final_definition,
-                                "forebear": forebear,
-                                "taken_from": taken_from,
-                                "notes": notes,
-                            }
-                        ]})
-                # If the word doesn't exist already
-                else:
-                    english_to_anglish.update({definition: {
-                        kind: [
-                            {
-                                "anglish_word": word,
-                                "anglish_spelling": anglish_spelling,
-                                # "pos": kind,
-                                "definitions": final_definition,
-                                "forebear": forebear,
-                                "taken_from": taken_from,
-                                "notes": notes,
-                            }
-                        ]
-                    }})
+#             input("Continue?")
+
+            anglish_wordlist.append({
+                "word": word,
+                "anglish_spelling": anglish_spelling,
+                "meaning": final_definition,
+                "kind": kind,
+                "forebear": forebear,
+                "taken_from": taken_from,
+                "notes": notes,
+            })
     
         line_count += 1
 
-with open("out/english_to_anglish.json", "w") as f:
+with open("out/anglish_wordlist.json", "w") as f:
     # f.write(english_to_anglish)
-    json.dump(english_to_anglish, f)
+    json.dump(anglish_wordlist, f)
 
 ######################################

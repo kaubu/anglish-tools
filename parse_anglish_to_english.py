@@ -118,6 +118,7 @@ def fix_taken_from(tf: str) -> str:
     tf = tf.replace("NE", "New English")
     tf = tf.replace("ME", "Middle English")
     tf = tf.replace("OE", "Old English")
+    tf = tf.replace("E", "English")
     tf = tf.replace("WF", "West Frisian")
     tf = tf.replace("LG", "Low German")
     tf = tf.replace("HG", "High German")
@@ -129,11 +130,14 @@ def fix_taken_from(tf: str) -> str:
     tf = tf.replace("H", "Hellenic")
     tf = tf.replace("O", "Other")
 
+    tf = tf.replace("Englishnglish", "English")
     tf = tf.replace("Archaic Norseew English", "Archaic New English")
     tf = tf.replace("Norseew English", "New English")
     tf = tf.replace("Otherld English", "Old English")
     tf = tf.replace("Hellenicigh German", "High German")
     tf = tf.replace("Norseorse", "Norse")
+    tf = tf.replace("Celticeltic", "Celtic")
+
     # ‹ = immediately from
     # ‹‹ = ultimately from
     tf = tf.replace("‹‹", ", ultimately from ")
