@@ -126,7 +126,7 @@ english_to_anglish = [
 anglish_wordlist = []
 
 # Makes "English to Anglish"
-with open("in/the_anglish_wordbook.csv", "r") as f:
+with open("in/the_anglish_wordbook_2.csv", "r") as f:
     csv_reader = csv.reader(f, delimiter=",")
     line_count = 0
     

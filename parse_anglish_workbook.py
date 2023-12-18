@@ -75,6 +75,10 @@ def split_definitions(definitions: str, pos: str):
     definitions = definitions.removeprefix("᛫ ")
     definitions = definitions.removesuffix(" ᛫")
 
+    # In case they use a common colon instead
+    definitions = POS_DIVIDER.join(definitions.split(":"))
+    print(f"current definitions = {definitions}")
+
     if POS_DIVIDER in definitions:
         # There are multiple parts of speech, loop for each one
         pos_dict = {}
@@ -112,121 +116,123 @@ def split_definitions(definitions: str, pos: str):
 english_to_anglish = {}
 
 # Makes "English to Anglish"
-with open("in/the_anglish_wordbook.csv", "r") as f:
+with open("in/the_anglish_wordbook_2.csv", "r") as f:
     csv_reader = csv.reader(f, delimiter=",")
     line_count = 0
     
     for row in csv_reader:
-        # row = word.split(",", 7);
+        # Skip first line / rows
+        if line_count >= 1:
+            # row = word.split(",", 7);
 
-        word = row[0]
-        anglish_spelling = row[1]
-        meaning = row[2]   # No use after definitions
-        kind = row[3]      # No use after definitions
-        forebear = row[4]
-        taken_from = row[5]
-        notes = row[6]
+            word = row[0]
+            anglish_spelling = row[1]
+            meaning = row[2]   # No use after definitions
+            kind = row[3]      # No use after definitions
+            forebear = row[4]
+            taken_from = row[5]
+            notes = row[6]
 
-        all_definitions = split_definitions(meaning, kind)
+            all_definitions = split_definitions(meaning, kind)
 
-        # Definitions:
-        # (['per'], 'per')
-        for kind, definitions in all_definitions.items():
-            
-            kind = kind.replace("PHRASE", "Phrase")
-            kind = kind.replace("PREFIX", "Prefix")
-            kind = kind.replace("SUFFIX", "Suffix")
-            kind = kind.replace("N(PRO)", "Pronoun")
-            kind = kind.replace("AJ(P)", "Proper Adjective")
-            kind = kind.replace("N(PN)", "Pronoun")
-            kind = kind.replace("N(P)", "Proper Noun")
-            kind = kind.replace("ADJ", "Adjective")
-            kind = kind.replace("ADV", "Adverb")
-            kind = kind.replace("AD", "Adverb")
-            kind = kind.replace("AJ", "Adjective")
-            kind = kind.replace("AV", "Adverb")
-            kind = kind.replace("PP", "Prepositional Phrase")
-            kind = kind.replace("PN", "Proper Noun")
-            kind = kind.replace("AC", "Acronym")
-            kind = kind.replace("C", "Conjunction")
-            kind = kind.replace("D", "Determiner")
-            kind = kind.replace("I", "Interjection")
-            kind = kind.replace("N", "Noun")
-            kind = kind.replace("P", "Preposition")
-            kind = kind.replace("V", "Verb")
+            # Definitions:
+            # (['per'], 'per')
+            for kind, definitions in all_definitions.items():
+                
+                kind = kind.replace("PHRASE", "Phrase")
+                kind = kind.replace("PREFIX", "Prefix")
+                kind = kind.replace("SUFFIX", "Suffix")
+                kind = kind.replace("N(PRO)", "Pronoun")
+                kind = kind.replace("AJ(P)", "Proper Adjective")
+                kind = kind.replace("N(PN)", "Pronoun")
+                kind = kind.replace("N(P)", "Proper Noun")
+                kind = kind.replace("ADJ", "Adjective")
+                kind = kind.replace("ADV", "Adverb")
+                kind = kind.replace("AD", "Adverb")
+                kind = kind.replace("AJ", "Adjective")
+                kind = kind.replace("AV", "Adverb")
+                kind = kind.replace("PP", "Prepositional Phrase")
+                kind = kind.replace("PN", "Proper Noun")
+                kind = kind.replace("AC", "Acronym")
+                kind = kind.replace("C", "Conjunction")
+                kind = kind.replace("D", "Determiner")
+                kind = kind.replace("I", "Interjection")
+                kind = kind.replace("N", "Noun")
+                kind = kind.replace("P", "Preposition")
+                kind = kind.replace("V", "Verb")
 
-            # Fix errors
-            kind = kind.replace("Prepositionhrase", "Phrase")
-            kind = kind.replace("Prepositionrefix", "Prefix")
-            kind = kind.replace("Prepositionronoun", "Pronoun")
-            kind = kind.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
-            kind = kind.replace("Prepositionrepositional Phrase", "Prepositional Phrase")
-            kind = kind.replace("Noun(PrepositionNoun)", "Pronoun")
-            kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            kind = kind.replace("Prepositionroper Adjective", "Proper Noun / Adjective")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
-            # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+                # Fix errors
+                kind = kind.replace("Prepositionhrase", "Phrase")
+                kind = kind.replace("Prepositionrefix", "Prefix")
+                kind = kind.replace("Prepositionronoun", "Pronoun")
+                kind = kind.replace("PrepositionroPrepositioner Adjective", "Proper Adjective")
+                kind = kind.replace("Prepositionrepositional Phrase", "Prepositional Phrase")
+                kind = kind.replace("Noun(PrepositionNoun)", "Pronoun")
+                kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+                kind = kind.replace("Prepositionroper Adjective", "Proper Noun / Adjective")
+                # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+                # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+                # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
+                # kind = kind.replace("Prepositionroper Nounoun", "Proper Noun")
 
 
-            # Misc
-            kind = kind.replace("&", " & ")
+                # Misc
+                kind = kind.replace("&", " & ")
 
-            final_definition = fix_definition(definitions[1])
-            taken_from = fix_taken_from(taken_from)
-            notes = fix_notes(notes)
-            
-            for definition in definitions[0]:
-                # "to help" → "help"
-                # "a soldier" → "soldier"
-                if kind == "Verb":
-                    definition = definition.removeprefix("to ")
-                elif kind == "Noun":
-                    definition = definition.removeprefix("a ")
-                    definition = definition.removeprefix("an ")
+                final_definition = fix_definition(definitions[1])
+                taken_from = fix_taken_from(taken_from)
+                notes = fix_notes(notes)
+                
+                for definition in definitions[0]:
+                    # "to help" → "help"
+                    # "a soldier" → "soldier"
+                    if kind == "Verb":
+                        definition = definition.removeprefix("to ")
+                    elif kind == "Noun":
+                        definition = definition.removeprefix("a ")
+                        definition = definition.removeprefix("an ")
 
-                # If there is already an English word in the set
-                if definition in english_to_anglish:
-                    # If there is already a POS of that definition
-                    if kind in english_to_anglish[definition]:
-                        english_to_anglish[definition][kind].append({
-                            "anglish_word": word,
-                            "anglish_spelling": anglish_spelling,
-                            # "pos": kind,
-                            "definitions": final_definition,
-                            "forebear": forebear,
-                            "taken_from": taken_from,
-                            "notes": notes,
-                        })
-                    # If the word exists but doesn't have the same kind/POS
+                    # If there is already an English word in the set
+                    if definition in english_to_anglish:
+                        # If there is already a POS of that definition
+                        if kind in english_to_anglish[definition]:
+                            english_to_anglish[definition][kind].append({
+                                "anglish_word": word,
+                                "anglish_spelling": anglish_spelling,
+                                # "pos": kind,
+                                "definitions": final_definition,
+                                "forebear": forebear,
+                                "taken_from": taken_from,
+                                "notes": notes,
+                            })
+                        # If the word exists but doesn't have the same kind/POS
+                        else:
+                            english_to_anglish[definition].update({kind: [
+                                {
+                                    "anglish_word": word,
+                                    "anglish_spelling": anglish_spelling,
+                                    # "pos": kind,
+                                    "definitions": final_definition,
+                                    "forebear": forebear,
+                                    "taken_from": taken_from,
+                                    "notes": notes,
+                                }
+                            ]})
+                    # If the word doesn't exist already
                     else:
-                        english_to_anglish[definition].update({kind: [
-                            {
-                                "anglish_word": word,
-                                "anglish_spelling": anglish_spelling,
-                                # "pos": kind,
-                                "definitions": final_definition,
-                                "forebear": forebear,
-                                "taken_from": taken_from,
-                                "notes": notes,
-                            }
-                        ]})
-                # If the word doesn't exist already
-                else:
-                    english_to_anglish.update({definition: {
-                        kind: [
-                            {
-                                "anglish_word": word,
-                                "anglish_spelling": anglish_spelling,
-                                # "pos": kind,
-                                "definitions": final_definition,
-                                "forebear": forebear,
-                                "taken_from": taken_from,
-                                "notes": notes,
-                            }
-                        ]
-                    }})
+                        english_to_anglish.update({definition: {
+                            kind: [
+                                {
+                                    "anglish_word": word,
+                                    "anglish_spelling": anglish_spelling,
+                                    # "pos": kind,
+                                    "definitions": final_definition,
+                                    "forebear": forebear,
+                                    "taken_from": taken_from,
+                                    "notes": notes,
+                                }
+                            ]
+                        }})
     
         line_count += 1
 

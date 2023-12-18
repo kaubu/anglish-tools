@@ -170,7 +170,7 @@ def fix_notes(n: str) -> str:
 anglish_to_english = {}
 
 # Makes "Anglish to English"
-with open("in/the_anglish_wordbook.csv", "r") as f:
+with open("in/the_anglish_wordbook_2.csv", "r") as f:
     csv_reader = csv.reader(f, delimiter=",")
     line_count = 0
     
