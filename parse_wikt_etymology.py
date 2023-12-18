@@ -153,11 +153,12 @@ with open(WIKTEXTRACT_PATH, "r", encoding="utf-8") as f:
             input("Continue?")
             print("===\n\n\n===")
         
-        # lang = data.get("lang")
-        # lang_code = data.get("lang_code")
+        if MODE == "Full":
+            lang = data.get("lang")
+            lang_code = data.get("lang_code")
 
-        # if lang != "English" or lang_code != "en":
-        #     continue
+            if lang != "English" or lang_code != "en":
+                continue
         
         word = data.get("word")
         senses = data.get("senses")
@@ -166,33 +167,34 @@ with open(WIKTEXTRACT_PATH, "r", encoding="utf-8") as f:
             continue
 
         if MODE == "Full":
-            glosses = senses.get("glosses")
-            categories = senses.get("categories")
+            for sense in senses:
+                glosses = sense.get("glosses")
+                categories = sense.get("categories")
 
-            if glosses == None:
-                continue
-            elif categories == None:
-                continue
+                if glosses == None:
+                    continue
+                elif categories == None:
+                    continue
 
-            e = get_etymologies(categories)
+                e = get_etymologies(categories)
 
-            if not e or len(e) <= 0:
-                continue
-            # else:
-                # print(f"word = {word}; e = {e}")
+                if not e or len(e) <= 0:
+                    continue
+                # else:
+                    # print(f"word = {word}; e = {e}")
 
-            if not word in etymologies:
-                etymologies[word] = []
+                if not word in etymologies:
+                    etymologies[word] = []
 
-            for gloss in glosses:
-                new_entry = {
-                    "gloss": gloss,
-                    "etymologies": e,
-                }
+                for gloss in glosses:
+                    new_entry = {
+                        "gloss": gloss,
+                        "etymologies": e,
+                    }
 
-                # print(f"new_entry = {new_entry}")
+                    # print(f"new_entry = {new_entry}")
 
-                etymologies[word].append(new_entry)
+                    etymologies[word].append(new_entry)
         elif MODE == "English":
             for sense in senses:
                 glosses = sense.get("glosses")
