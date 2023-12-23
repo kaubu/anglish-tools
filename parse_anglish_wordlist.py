@@ -132,6 +132,8 @@ with open("in/the_anglish_wordbook_2.csv", "r") as f:
     
     for row in csv_reader:
         # row = word.split(",", 7);
+        if line_count <= 0:
+            continue
 
         word = row[0]
         anglish_spelling = row[1]

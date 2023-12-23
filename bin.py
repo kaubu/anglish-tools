@@ -64,3 +64,18 @@ Form:
 # Definitions: {definitions}")
 
         # print(all_definitions)
+
+"""
+===
+Wordbook Comments/Notes
+
+A (ignore, that's for the first Row)
+
+B / Anglish Spelling (only one)
+C / Meaning (6)
+D / Kind (1)
+E / Forebear (a lot)
+F / Taken From (quite a few)
+G / Notes (a few)
+===
+"""

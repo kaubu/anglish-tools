@@ -107,7 +107,8 @@ categories_replace = {
 }
 
 etymologies = {}
-DEBUG = True
+DEBUG = False
+PROGRESS = True
 MODE = "Full"   # Full | English
 
 def get_etymologies(cs: list) -> list:
@@ -115,8 +116,11 @@ def get_etymologies(cs: list) -> list:
     
     if MODE == "Full":
         for c in cs:
-            if c["name"].strip() in categories_replace:
-                es.append(categories_replace[c["name"].strip()])
+            # c = "English archaic forms"
+            # print(f"c = {c}")
+
+            if c.strip() in categories_replace:
+                es.append(categories_replace[c.strip()])
     elif MODE == "English":
         for c in cs:
             """
@@ -138,6 +142,8 @@ def get_etymologies(cs: list) -> list:
 
     return es
 
+want = []
+
 with open(WIKTEXTRACT_PATH, "r", encoding="utf-8") as f:
     word_count = 0
 
@@ -145,7 +151,11 @@ with open(WIKTEXTRACT_PATH, "r", encoding="utf-8") as f:
         word_count += 1
         # 9114889 (all words)
         # 1261507 (English)
-        # print(f"Loading line {word_count} / 1261507 ({(word_count / 1261507) * 100:.2f}%)")
+        if MODE == "English" and PROGRESS:
+            print(f"Loading line {word_count} / 1261507 ({(word_count / 1261507) * 100:.2f}%)")
+        elif MODE == "Full" and PROGRESS:
+            print(f"Loading line {word_count} / 9114889 ({(word_count / 9114889) * 100:.2f}%)")
+
         data = json.loads(line)
 
         if DEBUG:
@@ -163,18 +173,27 @@ with open(WIKTEXTRACT_PATH, "r", encoding="utf-8") as f:
         word = data.get("word")
         senses = data.get("senses")
 
+        if word == "want":
+            print(json.dumps(data, indent=2, sort_keys=True, ensure_ascii=False))
+            want.append(data)
+
         if not senses:
+            print(f"No senses for {word}")
             continue
 
         if MODE == "Full":
             for sense in senses:
                 glosses = sense.get("glosses")
+                category = sense.get("category")
                 categories = sense.get("categories")
 
                 if glosses == None:
                     continue
                 elif categories == None:
                     continue
+
+                if category:
+                    print(f"category found! {category} @ {word}")
 
                 e = get_etymologies(categories)
 
@@ -225,5 +244,8 @@ with open(WIKTEXTRACT_PATH, "r", encoding="utf-8") as f:
 
                     etymologies[word].append(new_entry)
 
-with open("out/etymologies.json", "w") as f:
-    json.dump(etymologies, f)
+# with open("out/etymologies.json", "w") as f:
+#     json.dump(etymologies, f)
+
+with open("want2.json", "w") as f2:
+    json.dump(want, f2)

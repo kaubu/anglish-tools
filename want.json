@@ -1,0 +1,70 @@
+{
+    "senses": [{
+        "examples": [{
+            "text": "Lic. She hath the ears of a want. / Pec. Doth she want ears?",
+            "ref": "1592, John Lyly, Midas; republished in Charles Wentworth Dilke, editor, Old English Plays: Being a Selection from the Early Dramatic Writers, volume 1, London: Whittingham and Rowland, 1814",
+            "type": "quotation"
+        }],
+        "categories": ["English dialectal terms", "English terms with quotations", "Entries using missing taxonomic name (species)"],
+        "links": [
+            ["mole", "mole"]
+        ],
+        "raw_glosses": ["(dialectal) A mole (Talpa europea)."],
+        "glosses": ["A mole (Talpa europea)."],
+        "tags": ["dialectal"]
+    }],
+    "pos": "noun",
+    "head_templates": [{
+        "name": "en-noun",
+        "args": {},
+        "expansion": "want (plural wants)"
+    }],
+    "categories": ["en:Emotions", "en:Soricomorphs"],
+    "forms": [{
+        "form": "wants",
+        "tags": ["plural"]
+    }],
+    "etymology_number": 2,
+    "etymology_text": "From Middle English wont (\u201cmole\u201d), from Old English wand, wond, from Proto-Germanic *wanduz.",
+    "etymology_templates": [{
+        "name": "inh",
+        "args": {
+            "1": "en",
+            "2": "enm",
+            "3": "wont",
+            "t": "mole"
+        },
+        "expansion": "Middle English wont (\u201cmole\u201d)"
+    }, {
+        "name": "inh",
+        "args": {
+            "1": "en",
+            "2": "ang",
+            "3": "wand"
+        },
+        "expansion": "Old English wand"
+    }, {
+        "name": "m",
+        "args": {
+            "1": "ang",
+            "2": "wond"
+        },
+        "expansion": "wond"
+    }, {
+        "name": "inh",
+        "args": {
+            "1": "en",
+            "2": "gem-pro",
+            "3": "*wanduz"
+        },
+        "expansion": "Proto-Germanic *wanduz"
+    }],
+    "sounds": [{
+        "ipa": "/w\u0252nt/"
+    }, {
+        "enpr": "w\u014fnt"
+    }],
+    "word": "want",
+    "lang": "English",
+    "lang_code": "en"
+}

@@ -177,6 +177,9 @@ with open("in/the_anglish_wordbook_2.csv", "r") as f:
     for row in csv_reader:
         # row = word.split(",", 7);
 
+        if line_count <= 0:
+            continue
+
         anglish_word = row[0]
         anglish_spelling = row[1]
         raw_definitions = row[2]   # No use after definitions
@@ -330,6 +333,8 @@ with open("in/the_anglish_wordbook_2.csv", "r") as f:
                             ]
                         }
                     })
+        
+        line_count += 1
 
 with open("out/anglish_to_english.json", "w") as f:
     json.dump(anglish_to_english, f)
