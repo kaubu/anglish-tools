@@ -1,4 +1,4 @@
-WORD,ANG. SPEL.,᛫,KIND,FOREBEAR,TAKEN FROM,NOTES
+WORD,ANG. SPEL.,MEANING,KIND,FOREBEAR,TAKEN FROM,NOTES
 queerdom,cƿeerdom,᛫ LGBTQ+ ᛫,N,~,NE,"The term ‘queer’ is considered derogatory by some, and not because it is borrowed from Scots. Use with care."
 lovehood,lufhood,᛫ a romance ᛫ a relationship ᛫,N,~,NE,
 fuckhood,,᛫ sexuality ᛫,N,~,NE,
@@ -20,7 +20,7 @@ luster,,᛫ -sexual (nominal sense) ᛫,SUFFIX,~,NE,
 kin,,᛫ -gender ᛬ gender identity or expression ᛫,SUFFIX᛬N,~,,
 fuck,,᛫ sex ᛫,N,~,NE,
 fuckwend,,᛫ sex change ᛫,N,~,,
-wending,ƿending,᛫ transition ᛫,AJ,~,,
+wending,ƿending,᛫ a transition ᛫ transition ᛫,N᛬AJ,~,,
 wend,ƿend,᛫ to transition ᛫,V,~,,
 wane,ƿane,᛫ a person (of any gender) ᛫ a non-binary person ᛫,N,wana,OE,"From Old English ‘wana’, where it was used as a term meaning ‘a lack of’; here, referring to the lack of gender."
 wereman,ƿereman,᛫ a husband ᛫,N,were&wer,(OE&NE)+NE,
@@ -64,26 +64,22 @@ featherhamed,feaþerhamed,᛫ winged ᛫ having plumage ᛫,AJ,featherham+ed,ANE
 feathered,feaþered,᛫ winged ᛫,AJ,~,NE,[OED]
 flile,,᛫ wing ᛫,N,fly+-le,NE+NE,"Fly + -le. Calque of German Flügel. The native word was OE fiþere, but it later merged with OE feþer (feather)."
 I,,᛫ I (first person nominative pronoun) ᛫,N(PN),~,NE,
-Ich,,᛫ I (obsolete first person nominative pronoun) ᛫,N(PN),~,NE,
+Ich,Ic,᛫ I (first person nominative pronoun) ᛫,N(PN),~,NE,"This is what Old English ic would regularly turn into, but sometime during Middle English Ich was shortened to I, and it stayed that way, making Ich obsolete. Some speakers still choose to use Ich."
 me,,᛫ me (first person accusative pronoun) ᛫,N(PN),~,NE,
 my,,᛫ my (first person dependent possessive pronoun) ᛫,N(PN),~,NE,
 mine,,᛫ mine (first person independent possessive pronoun) ᛫,N(PN),~,NE,
 myself,,᛫ myself (first person reflexive pronoun) ᛫,N(PN),~,NE,
-hy,,᛫ she (alternative) ᛫,N(PN),hī-,OE,"From OE variants beginning with hī-. Of course, this would make it identical to the native plural nominative hy, so it would rhyme with fly. See <a href=”https://anglisc.miraheze.org/wiki/Pronouns#Etymology_of_she”>here</a>."
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
-,,,N(PN),~,NE,
+hy,,᛫ she ᛫,N(PN),hī-,OE,"From OE variants beginning with hī-. Of course, this would make it identical to the native plural nominative hy, so it would rhyme with fly. See <a href=”https://anglisc.miraheze.org/wiki/Pronouns#Etymology_of_she”>here</a>."
+you,geƿ,᛫ you (plural) ᛫ you all ᛫ y’all ᛫ youse ᛫ you guys ᛫,N(PN),~,NE,The spelling of ‘geƿ’ is still contested. Some think it should be ‘eƿ’ instead.
+your,geƿer,᛫ your (plural) ᛫,N(PN),~,NE,The spelling of ‘geƿer’ is still contested. Some think it should be ‘eƿer’ instead.
+yours,geƿers,᛫ yours (plural) ᛫,N(PN),~,NE,The spelling of ‘geƿers’ is still contested. Some think it should be ‘eƿers’ instead.
+yourselves,geƿerselfs,᛫ yourselves (plural) ᛫,N(PN),~,NE,The spelling of ‘geƿerselfs’ is still contested. Some think it should be ‘eƿerselfs’ instead.
+they,þey,᛫ they ᛫,N(PN),~,NE‹ME‹‹N,"For a non-Norse alternative, use hy."
+them,þem,᛫ them ᛫,N(PN),~,NE‹ME‹‹N,"For a non-Norse alternative, use hem."
+their,þeir,᛫ their ᛫,N(PN),~,NE‹ME‹‹N,"For a non-Norse alternative, use her."
+theirs,þeirs,᛫ theirs ᛫,N(PN),~,NE‹ME‹‹N,"For a non-Norse alternative, use hers."
+themselves,þemselfs,᛫ themselves ᛫,N(PN),~,NE‹ME‹‹N,"For a non-Norse alternative, use hemselves."
+themself,þemself,᛫ themself (singular they) ᛫,N(PN),~,NE‹ME‹‹N,"For a non-Norse alternative, use hemself."
 back,,᛫ shows that something is situated or done in the back ᛫ used to indicate the idea of returning ᛫,PREFIX,~,NE,"e.g. (first definition), backyard, backhand, background. e.g. (second definition), backtalk, backlash, backscatter."
 by,,᛫ means the same thing as the preposition and the adverb ᛫ has the meaning of secondary ᛫,PREFIX,~,NE,"e.g. (second definition), byproduct, byform"
 down,,"᛫ means the same thing as the preposition and the adverb ᛫ mainly shows a lowering in position, be it literal or figurative ᛫",PREFIX,~,NE,"e.g. (second definition), downstream, downturn"
@@ -99,4 +95,13 @@ over,ofer,᛫ Latin <i>super-</i> ᛫ above ᛫ shows betterness ᛫ shows exces
 self,,᛫ used to show that something involves itself or the involved agent only ᛫,PREFIX,~,NE,"e.g., self-hatred, self-love, self-explanatory"
 under,,᛫ Latin <i>sub-</i> ᛫ subordinate ᛫ subterranean ᛫ subaqueous ᛫ sublingua ᛫,PREFIX,~,NE,"2) e.g., underling <br/> 3) e.g., underground <br/> 4) e.g., underwater </br> 5) e.g., undertongue"
 up,,"᛫ means the same thing as the preposition and the adverb, and it can be used literally or figuratively ᛫",PREFIX,~,NE,"e.g., upriver, upturn, uprising, uphold, upset"
-well,ƿell,,,,,
+well,ƿell,᛫ shows goodness ᛫ shows emphasis ᛫,PREFIX,~,NE,"1) e.g., welfare, well-intentioned, well-being, well-founded<br/>2) e.g., well-established, well-nigh<br/><br/>In well-read, the adverbial meaning is used, but the adjectival read in this word is used in the sense of having read a lot, whence educated, and such a meaning is not found when read alone is used.<br/>The word welcome may appear to be made up of well and come, but in truth, the Old English word was wilcuma (will-comer, wherein will expresses desire, and comer means guest). The change of the former element into well came later. "
+be,,᛫ means around and all about ᛫ means thoroughly and soundly ᛫ means off and away ᛫ makes intransitive verbs expressing some kind of prepositional relation transitive ᛫ forms verbs from nouns and adjectives with the meaning of making the object have that quality ᛫ means affected by something ᛫ means covered or furnished with something with adjectives ending in -ed ᛫,PREFIX,bī(by),NE‹‹OE,"1) e.g., bespatter, bestrew<br/>2) e.g., bedazzle, bewilder, begrudge<br/>3) e.g., behead, bereave<br/>4) e.g., bemoan, bespeak<br/>5) e.g., belittle, befoul, befriend, besot, beclown<br/>6) e.g., becloud, befog, bedew, bedevil, bewitch<br/>7) e.g., bejewelled, beribboned, bespectacled"
+mis,,᛫ has a negative meaning to show badness ᛫,PREFIX,~,NE‹‹OE,"Some of the words in truth come from French, the prefix being from Old French mes (e.g., misadventure), but the prefix had the same meaning and almost the same form as mis- and so easily became one with it.<br/>Mis- matches Latin mal-.<br/><br/>1) e.g., misunderstand, misspeak, mistake"
+step,,᛫ used before words of familial relations to show that the person identified is not a blood relative but someone who has become a family member through marriage ᛫,PREFIX,~,NE,"e.g., stepmother, stepbrother. The prefix is from a Germanic word that meant pushed out, whence forsaken, bereft, and has no relation to the word step."
+un,,᛫ shows negation ᛫ non- ᛫ in- ᛫ (for nouns and adjectives) shows the lack of a thing or quality ᛫ (for nouns) shows bad quality ᛫,PREFIX,un-,NE‹‹OE,"4) e.g., unrest, uncertain<br/>5) e.g., unluck, unrede (whence the nickname Æthelred the Unready)"
+un,,᛫ shows reversal ᛫ shows removal ᛫,PREFIX,on-(and-),NE‹‹OE,"1) e.g., undo, untie<br/>2) e.g., unmask, uncage"
+ed,,᛫ put at the end of nouns to make adjectives that show the having of what the noun denotes ᛫,SUFFIX,~,NE,"e.g., horned, brown-haired, talented"
+er,,᛫ agent suffix used to show a deed’d doer ᛫ used to show association with a certain group or quality ᛫,SUFFIX,~,NE,"1) e.g., reader, farmer<br/>2) e.g., New Yorker, Icelander, foreigner, northerner<br/><br/>This Germanic suffix may have a connection with the Latin -ārius, though the relationship is uncertain. Even with the possible Latin connection, however, it has no connection to the homophonous suffix or (as in survivor and activator), which comes from Latin.<br/>The suffix once had a feminine equivalent in -ster, but over time, -ster lost its feminine meaning (see -ster below for more). "
+fold,,᛫ adjectival and adverbial suffix that is used with numbers to show multiplication ᛫,SUFFIX,~,NE,"For example, twofold betokens that the amount is now twice as much, so a twofold rise means that the amount has been doubled.<br/>The suffix also shows a certain number of parts. For example, in my reasoning is twofold, it means that the reasoning comes in two parts. "
+ful,,"᛫ adjectival suffix that shows that something is ""full"" of a certain quality ᛫ used with verbs to show tendency ᛫",SUFFIX,~,NE,"1) e.g., sorrowful, shameful<br/>2) e.g., forgetful, watchful<br/></br>When used with some nouns, it may have a secondary meaning of showing amount, and the resulting word is a noun, e.g., handful, bucketful."

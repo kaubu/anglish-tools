@@ -1,0 +1,32 @@
+===[Old French]
+
+Category:English_terms_borrowed_from_Old_French
+Category:English_terms_calqued_from_Old_French
+Category:English_terms_derived_from_Old_Northern_French
+Category:English_terms_derived_from_Anglo-Norman
+
+Category:English_terms_borrowed_from_Anglo-Norman
+Category:English_terms_calqued_from_Anglo-Norman
+Category:English_phono-semantic_matchings_from_Anglo-Norman
+
+Category:English_terms_derived_from_Law_French
+
+===[Middle French]
+
+Category:English_terms_derived_from_Middle_French
+Category:English_terms_borrowed_from_Middle_French
+Category:English_terms_calqued_from_Middle_French
+
+Category:English_terms_borrowed_from_Norman
+Category:English_terms_calqued_from_Norman
+Category:English_terms_derived_from_Jersey_Norman
+Category:English_terms_borrowed_from_Jersey_Norman
+
+
+===[Names] (not used)
+Category:English_surnames_from_Old_Northern_French
+Category:English_male_given_names_from_Old_French
+Category:English_given_names_from_Old_French
+Category:English_surnames_from_Anglo-Norman
+Category:English_surnames_from_Norman
+Category:English_surnames_from_Jersey_Norman
