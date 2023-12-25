@@ -1060,12 +1060,6 @@ carven
 castle
 cat
 catacomb
-Category:English_learned_borrowings_from_Old_English
-Category:English_semi-learned_borrowings_from_Old_English
-Category:English_terms_borrowed_from_Old_English
-Category:English_terms_calqued_from_Old_English
-Category:English_terms_inherited_from_Old_English
-Category:English_terms_partially_calqued_from_Old_English
 catnip
 Catterall
 caul

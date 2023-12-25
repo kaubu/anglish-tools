@@ -1443,9 +1443,9 @@ astrology
 astronomian
 astronomical
 astronomy
-at_a_venture
-at_adventure
-at_ease
+at a venture
+at adventure
+at ease
 ataraxy
 atavism
 atavisms
@@ -1514,7 +1514,7 @@ attitude
 attitudes
 attorn
 attorney
-attorney_general
+attorney general
 attorneys
 attornment
 attraction
@@ -1663,7 +1663,7 @@ awnings
 axillary
 axiom
 axioms
-ay_me
+ay me
 Ayer
 ayle
 azedarach
@@ -2010,7 +2010,7 @@ beautifies
 beautify
 beautifying
 beauty
-bec_de_corbin
+bec de corbin
 béchamel
 becquerel
 bedaub
@@ -2169,7 +2169,7 @@ biopsied
 biopsies
 biopsy
 biopsying
-bird_of_passage
+bird of passage
 Birk
 Birman
 biscotin
@@ -2268,7 +2268,7 @@ bludgeoned
 bludgeoning
 bludgeons
 blue
-blue_ribbon
+blue ribbon
 blued
 blueer
 blueest
@@ -2758,7 +2758,7 @@ buttressing
 butts
 buzzard
 buzzards
-by_virtue_of
+by virtue of
 bycoket
 cabal
 cabals
@@ -3011,7 +3011,7 @@ capsuled
 capsules
 capsuling
 captain
-captain_general
+captain general
 captained
 captaining
 captainry
@@ -3088,7 +3088,7 @@ caricatures
 caricaturesque
 caricaturing
 carillon
-carinate_abdomen
+carinate abdomen
 cariole
 carious
 cark
@@ -3803,7 +3803,7 @@ cinnamon
 cinnamons
 cinquain
 cinque
-Cinque_Ports
+Cinque Ports
 cinquefoil
 cinter
 cipher
@@ -3880,7 +3880,7 @@ clairsentience
 clairvoyance
 clairvoyant
 clairvoyants
-clameur_de_haro
+clameur de haro
 clamor
 clamored
 clamoring
@@ -5221,7 +5221,7 @@ coverlet
 coverlets
 covers
 covert
-covert_baron
+covert baron
 coverts
 coverture
 coves
@@ -5437,7 +5437,7 @@ crusted
 crusting
 crusts
 cry
-cry_havoc
+cry havoc
 crying
 cryptomnesia
 crystallery
@@ -5566,7 +5566,7 @@ cutlery
 cutlet
 cutlets
 cuttle
-cy_pres
+cy pres
 cyclostome
 cygnet
 cygnets
@@ -5663,11 +5663,11 @@ Davenport
 Davion
 davit
 davits
-de_Bourg
-de_Búrca
-de_Burgh
-de_la_Pole
-de_Stafford
+de Bourg
+de Búrca
+de Burgh
+de la Pole
+de Stafford
 dean
 deaned
 deaning
@@ -7251,12 +7251,12 @@ ducal
 ducat
 duchess
 duchy
-Duchy_of_Normandy
+Duchy of Normandy
 ductile
 dudgeon
 dudgeons
 due
-due_process
+due process
 duke
 dukes
 dulce
@@ -8661,7 +8661,7 @@ federals
 federation
 federations
 fee
-fee_tail
+fee tail
 fee'd
 feeble
 feebler
@@ -8684,8 +8684,8 @@ felonies
 felony
 feltry
 feme
-feme_covert
-feme_sole
+feme covert
+feme sole
 femerell
 feminine
 feminines
@@ -8793,12 +8793,12 @@ fiddlewood
 fidelities
 fidelity
 fief
-field_marshal
+field marshal
 fierce
 fiercer
 fiercest
 fig
-figgy_pudding
+figgy pudding
 figs
 figuline
 figural
@@ -8826,7 +8826,7 @@ filibustering
 filibusters
 filigree
 filing
-Filles_du_Roy
+Filles du Roy
 filmology
 filoselle
 filtration
@@ -9194,7 +9194,7 @@ frangipane
 Franglais
 frank
 Frank
-frank_bank
+frank bank
 franked
 franker
 frankest
@@ -9226,7 +9226,7 @@ frayed
 fraying
 frays
 frazil
-free_bench
+free bench
 fremish
 frenetic
 frenzies
@@ -9242,7 +9242,7 @@ fretted
 fretting
 friand
 friar
-Friar_Minor
+Friar Minor
 friars
 fricassee
 fricasseed
@@ -9872,7 +9872,7 @@ Godfrey
 goeland
 goelette
 goffer
-going_to
+going to
 goitre
 goitres
 Goliard
@@ -9882,9 +9882,9 @@ gondolier
 gonfalon
 gonfalonier
 gonfanon
-good_faith
-good_sense
-goodwill_ambassador
+good faith
+good sense
+goodwill ambassador
 goof
 goofed
 goofing
@@ -9963,7 +9963,7 @@ grammatology
 grampus
 grams
 grand
-grand_jury
+grand jury
 grand-
 grander
 grandest
@@ -10364,7 +10364,7 @@ hautboy
 hautest
 hauteur
 hautpas
-have_reason
+have reason
 haversack
 haversacks
 haviour
@@ -10394,7 +10394,7 @@ hectoliter
 hectostere
 heinous
 heir
-heir_apparent
+heir apparent
 heirs
 Helen
 Helene
@@ -10506,7 +10506,7 @@ honed
 hones
 honest
 honesty
-honi_soit_qui_mal_y_pense
+honi soit qui mal y pense
 honing
 honor
 honorable
@@ -10572,7 +10572,7 @@ Howard
 Hubble
 Hubert
 hue
-hue_and_cry
+hue and cry
 hues
 Hugh
 Hugo
@@ -11818,7 +11818,7 @@ jostle
 jostled
 jostles
 jostling
-jot_and_tittle
+jot and tittle
 jougs
 jouissance
 journal
@@ -11939,7 +11939,7 @@ kilograms
 kilometre
 kilometres
 kinematics
-King's_Daughters
+King's Daughters
 kinkajou
 kiosk
 kiosks
@@ -12051,7 +12051,7 @@ languorous
 languors
 lanifice
 lanner
-lanner_falcon
+lanner falcon
 lansquenet
 lanterloo
 lantern
@@ -12180,7 +12180,7 @@ lection
 Ledger
 lees
 leet
-left_in_the_lurch
+left in the lurch
 legacies
 legacy
 legate
@@ -12234,7 +12234,7 @@ lesson
 lessons
 lessor
 lessors
-letters_patent
+letters patent
 lettice
 Lettrism
 lettuce
@@ -12451,8 +12451,8 @@ loir
 Loir
 Loire
 Londonian
-long_robe
-Long_Sault
+long robe
+Long Sault
 longe
 longeron
 longitude
@@ -12659,7 +12659,7 @@ maimed
 maiming
 maims
 Main
-main_de_fer
+main de fer
 Maine
 mainor
 mainpernor
@@ -12681,7 +12681,7 @@ Major
 majorities
 majority
 majuscule
-make_love
+make love
 maki
 malachite
 malacology
@@ -12710,7 +12710,7 @@ malfeasances
 malfeasor
 malic
 malice
-malice_aforethought
+malice aforethought
 malicious
 malign
 malignant
@@ -12899,7 +12899,7 @@ marivaudage
 marjoram
 marjorams
 market
-market_overt
+market overt
 marketed
 marketing
 markets
@@ -13767,7 +13767,7 @@ morsel
 morsels
 morsure
 mort
-mort_d'ancestor
+mort d'ancestor
 mortal
 mortalities
 mortality
@@ -14158,7 +14158,7 @@ neutralizing
 neutrals
 névé
 Neville
-New_France
+New France
 newel
 nias
 nice
@@ -14197,7 +14197,7 @@ nitrogen
 nitrogens
 nitrous
 Nivôse
-no_doubt
+no doubt
 nobilities
 nobility
 noble
@@ -14260,7 +14260,7 @@ notable
 notables
 notaries
 notary
-notary_public
+notary public
 notch
 notched
 notches
@@ -14525,7 +14525,7 @@ Oliver
 olives
 Olley
 Olympiad
-Olympic_Games
+Olympic Games
 ombre
 omelette
 omelettes
@@ -14742,7 +14742,7 @@ otiosity
 otoconium
 Ottaway
 Ottoman
-Ottoman_Empire
+Ottoman Empire
 ouabain
 ouarine
 oubliette
@@ -14786,7 +14786,7 @@ oxidations
 oxide
 oxides
 oyer
-oyer_and_terminer
+oyer and terminer
 oyez
 oyster
 oysters
@@ -15378,7 +15378,7 @@ peers
 peevish
 peignoir
 peine
-peine_forte_et_dure
+peine forte et dure
 peisant
 peise
 pelage
@@ -15677,8 +15677,8 @@ pétanque
 petard
 petardier
 petards
-petit_jury
-petit_pâté
+petit jury
+petit pâté
 petite
 petites
 petitgrain
@@ -16144,7 +16144,7 @@ polarizes
 polarizing
 polatouche
 pole
-pole_arctic
+pole arctic
 poled
 polemic
 polemics
@@ -16714,7 +16714,7 @@ privileges
 privileging
 privity
 privy
-privy_house
+privy house
 prize
 prized
 prizes
@@ -16744,7 +16744,7 @@ processing
 procession
 processions
 prochein
-prochein_ami
+prochein ami
 proclaim
 proclaimed
 proclaiming
@@ -18584,7 +18584,7 @@ Rhodanian
 Rhône
 rhubarb
 rhyme
-rhyme_or_reason
+rhyme or reason
 rhymed
 rhymes
 rhyming
@@ -18982,7 +18982,7 @@ said
 saignée
 sainfoin
 saint
-Saint_Lawrence_River
+Saint Lawrence River
 Sainte-Foy
 saints
 sajou
@@ -19025,7 +19025,7 @@ salopettes
 Salopian
 salse
 salsify
-salt_cellar
+salt cellar
 saltire
 saltpetre
 salubrity
@@ -19133,7 +19133,7 @@ saucier
 saucisse
 saucisson
 sault
-Sault_Ste._Marie
+Sault Ste. Marie
 sausage
 sausages
 Saussure
@@ -19608,7 +19608,7 @@ sicle
 siege
 sieges
 sign
-sign_manual
+sign manual
 signal
 signalled
 signalling
@@ -19710,7 +19710,7 @@ siscowet
 sissies
 sissonne
 sissy
-Sister_Minor
+Sister Minor
 Sisyphism
 site
 sited
@@ -20133,7 +20133,7 @@ squiring
 squirrel
 squirrels
 squiry
-St_Barbe
+St Barbe
 stabilities
 stability
 stable
@@ -20185,7 +20185,7 @@ stapling
 state
 stated
 states
-States_General
+States General
 stating
 station
 stationed
@@ -21483,6 +21483,10 @@ travail
 travailous
 travails
 trave
+travel
+travelled
+travelling
+travels
 travers
 Travers
 traverse
@@ -21504,7 +21508,7 @@ treachery
 treacle
 treason
 treasure
-treasure_trove
+treasure trove
 treasured
 treasures
 treasuries
@@ -22465,7 +22469,7 @@ voiding
 voids
 voilà
 voile
-voir_dire
+voir dire
 voiture
 voiturette
 voiturier
