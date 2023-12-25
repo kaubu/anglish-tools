@@ -1,9 +1,9 @@
 -ety
 -poo
 14K
-23_skidoo
+23 skidoo
 86
-a_closed_mouth_catches_no_flies
+a closed mouth catches no flies
 abracadabra
 acacia
 Accident
@@ -25,23 +25,23 @@ Alsobrook
 ama
 Amorite
 amuse
-an_army_marches_on_its_stomach
-Anadama_bread
+an army marches on its stomach
+Anadama bread
 ancony
 Anguilla
-ant's_pants
+ant's pants
 Anzu
 aphenphosmphobia
 aphid
-apple-pie_order
+apple-pie order
 Arabella
 Arica
 Arizona
-Armenian_cucumber
+Armenian cucumber
 aroint
 askance
-at_loggerheads
-at_sixes_and_sevens
+at loggerheads
+at sixes and sevens
 aubaine
 avania
 Ayside
@@ -49,7 +49,7 @@ Aztlán
 baccara
 baccarat
 bad
-bad_cess
+bad cess
 badge
 badger
 baffle
@@ -63,7 +63,7 @@ ball-buster
 ballean
 ballow
 ballyhoo
-Banbury_story_of_a_cock_and_a_bull
+Banbury story of a cock and a bull
 bangle
 banjax
 banjo
@@ -71,14 +71,14 @@ Banquo
 banter
 bantling
 bap
-bar_ditch
+bar ditch
 barf
 Barlaam
 barney
 barratry
 barth
 Bartlebaugh
-bash_the_bishop
+bash the bishop
 basket
 bastable
 bastard
@@ -89,11 +89,11 @@ baze
 bazonga
 beagle
 beak
-beat_the_bishop
+beat the bishop
 Beazer
 bede
 beezer
-before_you_can_say_Jack_Robinson
+before you can say Jack Robinson
 beg
 benny
 bent
@@ -102,7 +102,7 @@ berth
 Beverlin
 bevy
 bifter
-bigot_list
+bigot list
 bike
 bilboes
 Biles
@@ -114,9 +114,9 @@ Bingham
 bird
 bistro
 bitzer
-Black_Maria
+Black Maria
 blackity-black
-Blacks_Harbour
+Blacks Harbour
 blag
 Blann
 Blanton
@@ -133,9 +133,9 @@ bloke
 Bloodsaw
 blotch
 blue
-blue_law
+blue law
 blush
-Bob's_your_uncle
+Bob's your uncle
 bobbery
 bobby-dazzler
 bodge
@@ -151,7 +151,7 @@ Bohall
 Boitnott
 Bole
 bolection
-Bombay_duck
+Bombay duck
 bone
 bonkers
 bonzer
@@ -159,16 +159,16 @@ boogie-woogie
 boost
 booty
 Booty
-bop_the_bishop
+bop the bishop
 boshter
 bosker
-Boston_marriage
+Boston marriage
 bother
 bougar
 boulter
 bouse
 Bowden
-Bowden_cable
+Bowden cable
 Bowery
 Bowlds
 bowse
@@ -179,7 +179,7 @@ branch
 brasco
 brash
 brass
-break_a_leg
+break a leg
 breenge
 breeze
 Brigus
@@ -191,13 +191,13 @@ brockle
 broha
 bronze
 Brookshire
-brownie_point
+brownie point
 brumby
 Brunskill
-Brunswick_stew
+Brunswick stew
 brusque
-Buckley's_and_none
-Buckley's_chance
+Buckley's and none
+Buckley's chance
 Budlong
 buggy
 bull
@@ -218,7 +218,7 @@ Bushaw
 bushwah
 busk
 buss
-by_jingo
+by jingo
 byock
 caddis
 cade
@@ -236,7 +236,7 @@ canoodle
 canopy
 cant
 Canuck
-Cape_Broyle
+Cape Broyle
 capoeira
 cappabar
 carapace
@@ -262,24 +262,24 @@ Chambless
 Changi
 chap
 char
-Charlie_Noble
+Charlie Noble
 charlock
-charlotte_russe
+charlotte russe
 chat
 chav
-Cheboygan_County
+Cheboygan County
 cheese
-cheese_it
+cheese it
 cheeselog
 chert
 cherub
 cheslip
 chess
-chess_pie
+chess pie
 Chéticamp
 Cheuvront
 chibuli
-chicken_à_la_King
+chicken à la King
 chigoe
 Chiltern
 ching
@@ -297,7 +297,7 @@ chunder
 churr
 Chustz
 cilly
-clams_casino
+clams casino
 clap
 Clewell
 clicko
@@ -316,7 +316,7 @@ cobbler
 cobia
 cock
 cock-a-hoop
-cock-and-bull_story
+cock-and-bull story
 cock-padle
 cockal
 cocker
@@ -327,7 +327,7 @@ cog
 cogue
 Cohick
 coil
-cold_enough_to_freeze_the_balls_off_a_brass_monkey
+cold enough to freeze the balls off a brass monkey
 Colinet
 Colma
 Combellack
@@ -343,9 +343,9 @@ contraption
 conundrum
 coochie-coochie
 cook
-cook_someone's_goose
+cook someone's goose
 coop
-Cooper_Island
+Cooper Island
 coot
 cooze
 cop
@@ -367,7 +367,7 @@ cricket
 crimp
 crocket
 croft
-crouch_ware
+crouch ware
 crouse
 cruft
 crunk
@@ -380,10 +380,10 @@ cully
 cultch
 cunjevoi
 cup
-cup_of_joe
+cup of joe
 curl
 curse
-curse_of_Scotland
+curse of Scotland
 Curvin
 cusk
 dab
@@ -394,17 +394,17 @@ Damaris
 dan
 dander
 dangle
-Daniel's_Harbour
+Daniel's Harbour
 darby
 Dard
 Darren
 dateless
 datil
 daub
-Davy_Jones
+Davy Jones
 Davyhulme
-Dead_Chest_Island
-dead_reckoning
+Dead Chest Island
+dead reckoning
 Delhi
 dell
 Delson
@@ -416,7 +416,7 @@ dewclaw
 Dewell
 DeWoody
 dhole
-Dick's_hatband
+Dick's hatband
 dido
 dig
 dike
@@ -437,13 +437,13 @@ docket
 doddle
 dodge
 dodo
-Doe_Lea
+Doe Lea
 dog
-dog's_bollocks
+dog's bollocks
 doggo
 dogie
 dollop
-dolly_mixture
+dolly mixture
 dolos
 dong
 donga
@@ -455,16 +455,16 @@ doodah
 doozy
 dork
 dosh
-double_feast
-double_Gloucester
+double feast
+double Gloucester
 dowdy
 Dowless
-down_pat
-down_the_banks
+down pat
+down the banks
 dowse
 drab
 Drava
-draw_a_line_in_the_sand
+draw a line in the sand
 dray
 drey
 Driggers
@@ -486,13 +486,13 @@ dunch
 Duras
 duroy
 durry
-Dutch_book
+Dutch book
 Dwinell
 dyke
 E
 earnest
 ease
-eat_crow
+eat crow
 eddish
 eephus
 egger
@@ -530,7 +530,7 @@ fillip
 fink
 fist
 fit
-fit_as_a_fiddle
+fit as a fiddle
 fizgig
 flabbergast
 flack
@@ -579,7 +579,7 @@ fuchsine
 fuddy-duddy
 fug
 fugazi
-full_monty
+full monty
 fuller
 fungo
 fuss
@@ -606,7 +606,7 @@ Gambo
 gambrel
 Gambrinus
 gamin
-gandy_dancer
+gandy dancer
 gange
 ganister
 garish
@@ -624,10 +624,10 @@ gefitinib
 geg
 gen
 Genung
-get_down_to_brass_tacks
-get_someone's_dander_up
-get_someone's_goat
-get_under_one's_goat
+get down to brass tacks
+get someone's dander up
+get someone's goat
+get under one's goat
 Gethers
 gib
 gibber
@@ -646,9 +646,9 @@ glissy
 gloak
 gnash
 gnip
-go_for_a_burton
-go_pear-shaped
-go_snake
+go for a burton
+go pear-shaped
+go snake
 gobo
 godwit
 goldfinny
@@ -658,8 +658,8 @@ Golphin
 gomer
 gonzo
 goo-goo
-good_cess
-goodwill_ambassador
+good cess
+goodwill ambassador
 googly
 gook
 goon
@@ -677,11 +677,11 @@ grail
 grammelot
 gravelling
 Gravlin
-great_Scott
-Great_Thatch
-green-ink_brigade
+great Scott
+Great Thatch
+green-ink brigade
 Greenish
-Greensville_County
+Greensville County
 gremlin
 gribble
 grice
@@ -729,29 +729,29 @@ Hargus
 Harris
 Hartless
 harum-scarum
-Harvey_Wallbanger
+Harvey Wallbanger
 hassle
 hassock
 hasta
 hasty
-have_a_cob_on
-have_a_cow
+have a cob on
+have a cow
 Haverly
 havey-cavey
 havoc
 hawk
 hawm
-heart_of_grace
-heavens_to_Betsy
+heart of grace
+heavens to Betsy
 heer
 hellgramite
 hellion
 Hemingbrough
 hemlock
-Henry's_pocket
+Henry's pocket
 hep
 hepper
-herd_cats
+herd cats
 herling
 Herne
 hickey
@@ -771,7 +771,7 @@ Hocktide
 hogscore
 hogshead
 hoit
-Hokey_Pokey
+Hokey Pokey
 hokum
 Hollick
 Holtry
@@ -780,7 +780,7 @@ holystone
 hoogie
 hoojah
 hooker
-Hookey_Walker
+Hookey Walker
 hooley
 hoon
 hooray
@@ -795,7 +795,7 @@ huck
 Huckstep
 hugger-mugger
 hull
-hum_bow
+hum bow
 humbug
 humet
 hummock
@@ -807,9 +807,9 @@ Huron
 hurple
 hurrah
 huss
-I_know_you_are_but_what_am_I
-I'll_be_a_monkey's_uncle
-I'm_your_huckleberry
+I know you are but what am I
+I'll be a monkey's uncle
+I'm your huckleberry
 Iams
 Idaho
 Ider
@@ -818,14 +818,14 @@ illywhacker
 imatinib
 Imbolc
 Imus
-Indian_summer
+Indian summer
 infradian
 ingle
 inode
 Inscoe
 irp
 isabella
-Isle_of_Dogs
+Isle of Dogs
 jabroni
 jackpot
 jalopy
@@ -837,11 +837,11 @@ jarg
 jaunt
 jaw
 jazz
-Jenny_Haniver
+Jenny Haniver
 jerry-built
 Jersey
-Jerusalem_artichoke
-Jesus_Harold_Christ
+Jerusalem artichoke
+Jesus Harold Christ
 jib
 jibe
 jiffy
@@ -854,8 +854,8 @@ jock
 joe
 joey
 jog
-John_Dory
-jolly_boat
+John Dory
+jolly boat
 jook
 jorum
 jounce
@@ -869,13 +869,13 @@ jumbuck
 jumper
 junk
 jury
-jury_mast
+jury mast
 k-
 ka
 Kadrmas
 kady
 kali
-kangaroo_court
+kangaroo court
 kayfabe
 kaylied
 Keels
@@ -883,7 +883,7 @@ keister
 Kenderdine
 kenning
 Kentucky
-Kentucky_Colonel
+Kentucky Colonel
 Kerce
 Kerman
 ketchup
@@ -899,7 +899,7 @@ kip
 Kippens
 kite
 kneck
-Knickerbocker_Glory
+Knickerbocker Glory
 kombucha
 Korson
 Kosier
@@ -919,9 +919,9 @@ larrup
 Laswell
 lavant
 lave
-lazy_Susan
+lazy Susan
 lea
-Lee_County
+Lee County
 leere
 leet
 lew
@@ -934,14 +934,14 @@ limbo
 limer
 limmer
 limonare
-line_up_one's_ducks
+line up one's ducks
 linhay
 link
 lish
 lissen
 list
 lithe
-Little_Thatch
+Little Thatch
 loach
 loaf
 lobster
@@ -958,7 +958,7 @@ lollipop
 lollygag
 lollygagger
 lollypaloozer
-long_time_no_see
+long time no see
 Longyear
 loo
 loogan
@@ -985,7 +985,7 @@ Macklin
 main
 Maitland
 make
-make_ends_meet
+make ends meet
 malarkey
 mampara
 mampus
@@ -1001,7 +1001,7 @@ mathetics
 matilda
 maty
 mauther
-may_you_live_in_interesting_times
+may you live in interesting times
 maypop
 McZeal
 Mealing
@@ -1014,11 +1014,11 @@ megrim
 Melungeon
 Meno
 Merida
-Mickey_Finn
+Mickey Finn
 Mifflin
 mimmer
 mimmering
-mind_one's_ps_and_qs
+mind one's ps and qs
 mingy
 minivet
 Minus
@@ -1046,13 +1046,13 @@ moola
 moot
 mop
 Moral
-more_often_than_not
-more_than_one_can_shake_a_stick_at
+more often than not
+more than one can shake a stick at
 morse
 mort
 MOS
 mosey
-Mount_Butler
+Mount Butler
 Mozingo
 mozo
 mubble-fubbles
@@ -1082,15 +1082,15 @@ nape
 nark
 nasky
 nasty
-neck_and_crop
+neck and crop
 ned
-neenish_tart
+neenish tart
 Negretti
 Nephi
 nerd
 netting
 netty
-Newberry_County
+Newberry County
 newbie
 Niblock
 nick
@@ -1104,7 +1104,7 @@ nignay
 nilotinib
 nimps
 nincompoop
-nine_lives
+nine lives
 nippitatum
 nitty
 nitty-gritty
@@ -1118,8 +1118,8 @@ noose
 norie
 nork
 Nork
-Norman_Island
-nosey_parker
+Norman Island
+nosey parker
 nug
 nugget
 nupson
@@ -1131,25 +1131,25 @@ Ocasio
 ochre
 octothorpe
 ofay
-off_pat
-off_the_hook
-offer_one_can't_refuse
+off pat
+off the hook
+offer one can't refuse
 ogee
 ogin
 oik
 OK
 okra
-old_hat
+old hat
 Ollis
 Omohundro
-on_fleek
-on_the_fritz
+on fleek
+on the fritz
 onkus
 oodles
 oojah
-oojah_capivvy
+oojah capivvy
 opake
-open_the_kimono
+open the kimono
 Ordoyne
 Oreo
 Orillia
@@ -1159,9 +1159,9 @@ Oscar
 osha
 Ottey
 ouch
-out_of_kilter
+out of kilter
 Oyster
-pack_a_sad
+pack a sad
 pad
 padar
 paddywhack
@@ -1200,8 +1200,8 @@ Percle
 perk
 pet
 peter
-peter_out
-petty_knife
+peter out
+petty knife
 pettychaps
 phony
 piccalilli
@@ -1234,12 +1234,12 @@ po-faced
 Podell
 pogge
 pogged
-Point_Fortin
+Point Fortin
 pokelogan
 polacre
 polecat
 poledavy
-Polly_want_a_cracker
+Polly want a cracker
 polo
 pomelo
 ponce
@@ -1247,16 +1247,16 @@ pooch
 poontang
 poop
 Pop
-Pope_Julius
+Pope Julius
 portobello
 portulent
 posh
-possession_is_nine_points_of_the_law
-potatoes_O'Brien
+possession is nine points of the law
+potatoes O'Brien
 pother
 pothole
 pott
-Pouch_Cove
+Pouch Cove
 pour
 pourcuttle
 poutine
@@ -1293,7 +1293,7 @@ quaff
 quandary
 quant
 quarrons
-Queer_Street
+Queer Street
 quiff
 quillet
 quim
@@ -1308,7 +1308,7 @@ rack
 rackle
 rag
 ragman
-rain_cats_and_dogs
+rain cats and dogs
 rake
 rant
 rap
@@ -1317,7 +1317,7 @@ rash
 rasher
 raunchy
 ravelled
-ray_grass
+ray grass
 razoo
 razzmatazz
 ream
@@ -1339,7 +1339,7 @@ rinky-dink
 rip
 Rizor
 rizzar
-rob_Peter_to_pay_Paul
+rob Peter to pay Paul
 rock
 Rockmore
 rod
@@ -1379,7 +1379,7 @@ saggar
 Salina
 saliva
 sally
-Sally's_Cove
+Sally's Cove
 salugi
 Sampey
 Sanor
@@ -1394,13 +1394,13 @@ sauger
 saunter
 Sawdy
 Saxman
-say_uncle
+say uncle
 scad
 scag
 scallywag
 scam
 scat
-schmoo_torte
+schmoo torte
 schmuck
 schwag
 scobberlotcher
@@ -1423,19 +1423,19 @@ scupper
 scut
 scye
 Sedam
-see_a_man_about_a_dog
-see_Naples_and_die
+see a man about a dog
+see Naples and die
 seerhand
 Selsor
 Semmes
-Seneca_Village
-set_the_Thames_on_fire
+Seneca Village
+set the Thames on fire
 shack
 Shacklett
 Shadowens
 shag
 shagged
-shaggy_dog_story
+shaggy dog story
 shaka
 shan
 shandrydan
@@ -1463,8 +1463,8 @@ shirr
 shiver
 shoat
 shoddy
-short_end_of_the_stick
-Show_Me_State
+short end of the stick
+Show Me State
 shrine
 shrug
 shtuck
@@ -1533,7 +1533,7 @@ snuff
 soam
 Sobey
 sockdolager
-softly,_softly,_catchee_monkey
+softly, softly, catchee monkey
 sog
 Soley
 soman
@@ -1553,7 +1553,7 @@ spat
 spatchcock
 spate
 Sphar
-spider's_ankles
+spider's ankles
 spiff
 spiffy
 spitchcock
@@ -1589,7 +1589,7 @@ squill-gee
 squinch
 squirm
 Sroufe
-St._Lewis
+St. Lewis
 Stanchfield
 Stant
 Stargel
@@ -1607,7 +1607,7 @@ stocious
 stodgy
 stogie
 stonk
-Stony_Plain
+Stony Plain
 stot
 strand
 strub
@@ -1626,7 +1626,7 @@ swale
 Swalley
 swammy
 swatch
-sweet_mother_of_pearl
+sweet mother of pearl
 swene
 swiftboat
 swig
@@ -1657,15 +1657,15 @@ Teaster
 tee-tee
 Teegeeack
 telestial
-tell_it_to_the_marines
+tell it to the marines
 terry
 tetchy
-that's_all_she_wrote
-Thatch_Cay
+that's all she wrote
+Thatch Cay
 Thaw
-the_whole_bang_shoot
+the whole bang shoot
 theodolite
-there's_more_than_one_way_to_skin_a_cat
+there's more than one way to skin a cat
 thirl
 Thornock
 thrapple
@@ -1678,7 +1678,7 @@ till
 tilly-vally
 Timbers
 Timperley
-tin_Lizzie
+tin Lizzie
 tine
 tint
 tip
@@ -1687,11 +1687,11 @@ Tipsword
 tisswood
 titling
 tizzy
-to_a_T
+to a T
 tod
 toddle
-toe_rag
-toe_the_line
+toe rag
+toe the line
 toggle
 toodeloo
 Toomer
@@ -1734,24 +1734,24 @@ twirp
 twitchet
 Tybalt
 Uist
-up_and
+up and
 urbacity
 utchy
 Uzbek
 Uzbekistan
-Valley_of_the_Sun
+Valley of the Sun
 vamp
 Vargason
 Velie
 verdin
 Vereen
-vinegar_stroke
+vinegar stroke
 Violett
 vonce
 waddy
 waft
 waif
-Wallasea_Island
+Wallasea Island
 wallow
 Waln
 Wands
@@ -1759,7 +1759,7 @@ wang
 wank
 Wasatch
 waster
-water_knot
+water knot
 wax
 Weast
 wee
@@ -1791,9 +1791,9 @@ woggin
 Womack
 wont
 woo
-woo_woo
+woo woo
 Woolum
-woordie_major
+woordie major
 wordle
 Worlds
 wosbird
@@ -1814,7 +1814,7 @@ yaw
 yaws
 Yeast
 yegg
-yellow_hammer
+yellow hammer
 yelting
 Yerdon
 yiffer
@@ -1823,7 +1823,7 @@ yogh
 yomp
 yonks
 yore
-your_boy
+your boy
 yuca
 zack
 Zeiset

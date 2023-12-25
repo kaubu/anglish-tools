@@ -57,7 +57,7 @@ awk
 awn
 Axel
 axle
-axle_tooth
+axle tooth
 Axtell
 ay
 aye
@@ -70,7 +70,7 @@ bain
 Bain
 bairnish
 bait
-Baldrs_draumar
+Baldrs draumar
 balk
 Balke
 ball
@@ -245,7 +245,7 @@ Colville
 con
 Coningsby
 Coniston
-Coniston_Cold
+Coniston Cold
 Corey
 Corstorphine
 Cosby
@@ -277,8 +277,8 @@ Dane
 Danegeld
 dangle
 Darby
-Dark_Alfs
-dark_elf
+Dark Alfs
+dark elf
 dastard
 dave
 daymeal
@@ -309,7 +309,7 @@ Drake
 Drammen
 dree
 dreg
-drink_hail
+drink hail
 droll
 droop
 droopy
@@ -329,7 +329,7 @@ earn
 Edda
 Edenfield
 egg
-egg_on
+egg on
 eid
 Eid
 einherjar
@@ -348,7 +348,7 @@ ettle
 fang
 Farlesthorpe
 Farman
-Faroe_Islands
+Faroe Islands
 fast
 faucet
 Fawthrop
@@ -411,7 +411,7 @@ Frisby
 fro
 frock
 frosk
-frost_giant
+frost giant
 froth
 fry
 fuck
@@ -470,7 +470,7 @@ ging
 girth
 give
 Gjerde
-Gjoa_Haven
+Gjoa Haven
 glaum
 gleam
 gleek
@@ -496,7 +496,7 @@ grain
 graith
 Graven
 grax
-Great_Orme
+Great Orme
 Greenland
 greeve
 greking
@@ -628,9 +628,9 @@ ill
 imell
 Inga
 Ingleby
-Ingleby_Greenhow
+Ingleby Greenhow
 Ingrid
-Ireland's_Eye
+Ireland's Eye
 Irish
 irk
 ithand
@@ -672,9 +672,9 @@ kilt
 kindle
 kip
 kirk
-Kirk_Hammerton
+Kirk Hammerton
 Kirkby
-Kirkby_Thore
+Kirkby Thore
 Kirkley
 Kirkwall
 kirtle
@@ -732,8 +732,8 @@ lidden
 lift
 lig
 ligged
-Light_Alfs
-light_elf
+Light Alfs
+light elf
 like
 likely
 limber
@@ -765,7 +765,7 @@ loon
 loop
 loose
 lope
-Lord's_Day
+Lord's Day
 Loseby
 low
 lown
@@ -828,7 +828,7 @@ Mjollnir
 mold
 molnupiravir
 mould
-Mount_Hope
+Mount Hope
 Mowson
 muck
 muggy
@@ -861,7 +861,7 @@ noodle
 Norby
 Normanby
 Norn
-North_Ferriby
+North Ferriby
 Norway
 Norwegia
 Norwegian
@@ -878,7 +878,7 @@ Odin
 Oglethorpe
 oker
 Olaf
-Old_Scratch
+Old Scratch
 Oldham
 Oleg
 Olga
@@ -1021,7 +1021,7 @@ scale
 Scandinavia
 Scania
 scant
-Scapa_Flow
+Scapa Flow
 scar
 Scarborough
 scare
@@ -1033,7 +1033,7 @@ scat
 scathe
 scatter
 scaw
-Scholar_Green
+Scholar Green
 Scholes
 scold
 scoot
@@ -1060,7 +1060,7 @@ scull
 Scunthorpe
 scurvy
 scuttle
-sea_stack
+sea stack
 seat
 Seatter
 seave
@@ -1156,9 +1156,9 @@ snug
 Sodor
 soe
 sog
-son_of_a_bitch
+son of a bitch
 Sorley
-South_Mere
+South Mere
 Sowerby
 spake
 spakona
@@ -1177,7 +1177,7 @@ sprint
 spry
 squall
 squeal
-St_Kilda
+St Kilda
 stab
 stack
 Stackpole
@@ -1252,7 +1252,7 @@ tattered
 Tavastia
 teem
 telemark
-Temple_Sowerby
+Temple Sowerby
 tern
 tether
 Thackeray
@@ -1409,7 +1409,7 @@ weel
 Welby
 wellaway
 Westman
-Westman_Islands
+Westman Islands
 Wetherby
 Whalsay
 wheeze

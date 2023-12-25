@@ -4,6 +4,7 @@ travel (Old French)
 ===[Old French]
 
 Category:English_terms_borrowed_from_Old_French
+Category:English terms derived from Old French
 Category:English_terms_calqued_from_Old_French
 Category:English_terms_derived_from_Old_Northern_French
 Category:English_terms_derived_from_Anglo-Norman
@@ -26,7 +27,6 @@ Category:English_terms_derived_from_Jersey_Norman
 Category:English_terms_borrowed_from_Jersey_Norman
 
 ===[FORGOT]
-Category:English terms derived from Old French
 
 ===[Names] (not used)
 Category:English_surnames_from_Old_Northern_French
@@ -35,3 +35,23 @@ Category:English_given_names_from_Old_French
 Category:English_surnames_from_Anglo-Norman
 Category:English_surnames_from_Norman
 Category:English_surnames_from_Jersey_Norman
+
+===[Petscan]
+https://petscan.wmflabs.org/?language=en&templates_no=&source_combination=&interface_language=en&combination=union&ns%5B0%5D=1&wikidata_source_sites=&common_wiki_other=&links_to_all=&edits%5Bbots%5D=both&templates_any=&show_disambiguation_pages=both&rxp_filter=&referrer_url=&wpiu=any&outlinks_no=&wikidata_prop_item_use=&search_filter=&project=wiktionary&negcats=&edits%5Banons%5D=both&ores_prediction=any&maxlinks=&search_max_results=500&cb_labels_yes_l=1&namespace_conversion=keep&sortby=none&wikidata_item=no&cb_labels_any_l=1&search_query=&minlinks=&smaller=&categories=English_terms_borrowed_from_Old_French%0D%0AEnglish+terms+derived+from+Old+French%0D%0AEnglish_terms_calqued_from_Old_French%0D%0AEnglish_terms_derived_from_Old_Northern_French%0D%0AEnglish_terms_derived_from_Anglo-Norman%0D%0AEnglish_terms_borrowed_from_Anglo-Norman%0D%0AEnglish_terms_calqued_from_Anglo-Norman%0D%0AEnglish_phono-semantic_matchings_from_Anglo-Norman%0D%0AEnglish_terms_derived_from_Law_French%0D%0AEnglish_terms_derived_from_Middle_French%0D%0AEnglish_terms_borrowed_from_Middle_French%0D%0AEnglish_terms_calqued_from_Middle_French%0D%0AEnglish_terms_borrowed_from_Norman%0D%0AEnglish_terms_calqued_from_Norman%0D%0AEnglish_terms_derived_from_Jersey_Norman%0D%0AEnglish_terms_borrowed_from_Jersey_Norman&sparql=&ores_type=any&ores_prob_to=&manual_list=&langs_labels_yes=&manual_list_wiki=&cb_labels_no_l=1&output_limit=&doit=
+https://petscan.wmflabs.org/?language=en&templates_no=&source_combination=&interface_language=en&combination=union&ns%5B0%5D=1&wikidata_source_sites=&common_wiki_other=&links_to_all=&edits%5Bbots%5D=both&templates_any=&show_disambiguation_pages=both&rxp_filter=&referrer_url=&wpiu=any&outlinks_no=&wikidata_prop_item_use=&search_filter=&project=wiktionary&negcats=&edits%5Banons%5D=both&ores_prediction=any&maxlinks=&search_max_results=500&cb_labels_yes_l=1&namespace_conversion=keep&sortby=none&wikidata_item=no&cb_labels_any_l=1&search_query=&minlinks=&smaller=&categories=English_terms_borrowed_from_Old_French%0D%0AEnglish+terms+derived+from+Old+French%0D%0AEnglish_terms_calqued_from_Old_French%0D%0AEnglish_terms_derived_from_Old_Northern_French%0D%0AEnglish_terms_derived_from_Anglo-Norman%0D%0AEnglish_terms_borrowed_from_Anglo-Norman%0D%0AEnglish_terms_calqued_from_Anglo-Norman%0D%0AEnglish_phono-semantic_matchings_from_Anglo-Norman%0D%0AEnglish_terms_derived_from_Law_French%0D%0AEnglish_terms_derived_from_Middle_French%0D%0AEnglish_terms_borrowed_from_Middle_French%0D%0AEnglish_terms_calqued_from_Middle_French%0D%0AEnglish_terms_borrowed_from_Norman%0D%0AEnglish_terms_calqued_from_Norman%0D%0AEnglish_terms_derived_from_Jersey_Norman%0D%0AEnglish_terms_borrowed_from_Jersey_Norman&sparql=&ores_type=any&ores_prob_to=&manual_list=&langs_labels_yes=&manual_list_wiki=&cb_labels_no_l=1&output_limit=
+English_terms_borrowed_from_Old_French
+English terms derived from Old French
+English_terms_calqued_from_Old_French
+English_terms_derived_from_Old_Northern_French
+English_terms_derived_from_Anglo-Norman
+English_terms_borrowed_from_Anglo-Norman
+English_terms_calqued_from_Anglo-Norman
+English_phono-semantic_matchings_from_Anglo-Norman
+English_terms_derived_from_Law_French
+English_terms_derived_from_Middle_French
+English_terms_borrowed_from_Middle_French
+English_terms_calqued_from_Middle_French
+English_terms_borrowed_from_Norman
+English_terms_calqued_from_Norman
+English_terms_derived_from_Jersey_Norman
+English_terms_borrowed_from_Jersey_Norman
